@@ -1,0 +1,8 @@
+print("               menu               ")
+print(                                     )
+print("water__________2$        ")
+print("sp.water_______3$")
+print("steak__________15$    ")
+print("soup___________15$")
+print('free___________9$')
+print("pizza__________15$ ")

@@ -1,0 +1,3 @@
+name="cotne"
+
+print(name)

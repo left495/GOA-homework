@@ -1,0 +1,8 @@
+products=input("enter list:")
+pirveli=input("2:")
+meore=input("3:")
+mesame=input("4:")
+print(products)
+print(pirveli)
+print(meore)
+print(mesame)

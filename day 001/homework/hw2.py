@@ -1,0 +1,1 @@
+print("pasta,steak,chiken,soup,fish")
