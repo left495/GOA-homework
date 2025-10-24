@@ -23,4 +23,3 @@ elif number>10:
     print("ჩაიჭერი")
 else:
     print("აქ აღარ მოხვიდე")
-#kmcf
