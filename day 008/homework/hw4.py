@@ -9,7 +9,9 @@
 
 age=int(input("რამდენის ხარ"))
 st=input("სტუდენტი ხარ?")
-if age<12 or age>65:
+if st!="yes" and st!="no":
+    print("გთხოვთ შეიყვანოთ yes ან no")
+elif age<12 or age>65:
     print("ბილეთი უფასოა")
 elif st=="yes" and age>12:
     print("ბილეთი ნახევარ ფასად")
