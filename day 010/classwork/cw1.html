@@ -1,0 +1,65 @@
+<!-- 
+1)შექმენით გოას საიტზე რეგისტრაციის ფორმა , სადაც მომხმარებელი შეიყვანს სახელს,
+ გვარს ,მეილს ,ასაკს ,უნდა აირჩიოს GENDER MALE FEMALE.
+ გამოიყენეთ checkbox ტიპის ინფუთი რომლითაც აირჩევთ გოას რამდენიმე კურსს , 
+ თუ რომელზე გინდათ სწავლა,ბოლოს დაამატეთ submit ტიპის ინფუთი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goal oriented academy</title>
+</head>
+<body>
+    <h1>GOAL-Oriented academy</h1>
+    <h3>რეგისტრაცია</h3>
+   <form>
+    <label for="name"> სახელი</label>
+    <input type="text" name="name" id="name" value="name">
+
+    <br>
+    <br>
+
+    <label for="surname">გვარი</label>
+    <input type="text" name="surname" id="surname" value="surname">
+
+    <br>
+    <br>
+
+    <label for="gender1"> მდედრობითი</label>
+    <input type="checkbox" name="gender mamr" id="gender1">
+    <label for="gender2"> მამრობითი</label>
+    <input type="checkbox" name="gender mdedr" id="gender2">
+
+    <br>
+    <br>
+
+    <label for="email">მეილი</label>
+    <input type="email" name="email" id="email" value="example@gmail.com">
+
+    <br>
+    <br>
+
+    <label for="curse1"> რობოტიკა და ელექტრული ინჟინერია</label>
+    <input type="checkbox" name="course1" id="course1">
+    <label for="curse2">game development</label>
+    <input type="checkbox" name="course2" id="course2">
+    <label for="curse3"> ხელოვნური ინტელექტი</label>
+    <input type="checkbox" name="course3" id="course3">
+    <label for="curse4"> კიბერუსაფრთხოება</label>
+    <input type="checkbox" name="course4" id="course4">
+
+    <br>
+    <br>
+    <label for="password">პაროლი</label>
+    <input type="password" name="password" id="password" value="1234444">
+
+    <br>
+    <br>
+    
+    <input type="submit" value="დამახსოვრება">
+   </form>
+
+</body>
+</html>
