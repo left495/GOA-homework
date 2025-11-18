@@ -4,9 +4,9 @@ i=int(input('შეიყვანეთ რიცხვი '))
 a=int(input('შეიყვანეთ კიდევ რიცხვი'))
 b=int(input('შეიყვანეთ ბოლოჯერ რიცხვი'))
 
+c=a+b+i
 
-
-while b:
-    print(i+a+b%3)
+while c%3==(0):
+    print()
     
     

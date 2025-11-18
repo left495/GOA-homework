@@ -3,7 +3,10 @@
 i=int(input('enter any number'))
 
 while i!=21:
-    print('incorrect')
+    if i!=21:
+        print("incorect")
+    
+
     i=int(input('enter any number'))
 
     
