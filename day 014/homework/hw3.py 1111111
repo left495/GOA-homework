@@ -2,7 +2,7 @@
 
 i=int(input('enter number'))
 a=2
-while a<=i:
+while a<i+1:
     print(i)
     a=a+1
 
