@@ -3,7 +3,7 @@
 i=int(input('enter number'))
 a=2
 while a<i+1:
-    print(i)
+    print(a)
     a=a+1
 
     
