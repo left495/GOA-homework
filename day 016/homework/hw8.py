@@ -11,7 +11,7 @@
 
 
 
-password=input('enter your password')
+password='paroli'
 
 
 print('saved')
@@ -24,7 +24,7 @@ while password!=pas:
     pas=input('enter password')
     if password==pas:
         print('u got it')
-    
 
-       
-         
+
+
+        
