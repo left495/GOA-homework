@@ -13,9 +13,10 @@
 tem=int(input('enter any temperature'))
 
 
-if tem>30:
-    print('cxela')
-elif tem==30:
-    print('normaluria')
+if tem>0:
+    if tem>30:
+        print('cxela')
+    else:
+        print('normaluria')
 else:
     print('yinvaa')
