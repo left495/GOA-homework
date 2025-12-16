@@ -17,5 +17,5 @@ name=input('enter your name:')
 if name[0] == 'g' or name[0] == 'G':
     print('your name starts with G')
 else:
-    print('your name isnt starting with G')
+    print('your name isnt starts with G')
 
