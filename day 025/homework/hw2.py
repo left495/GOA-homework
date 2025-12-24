@@ -2,19 +2,22 @@
 # თუ list-ში უკვე არის ეს ხილი remove()-ით წაშალე მხოლოდ პირველი შემხვედრი, თუ არ არის ლისტში მაშინ დაბეჭდე შესაბამისი შეტყობინება
 
 
-fruits = ["apple", "banana", "apple", "orange"]
+fruits = ["apple","banana","apple","orange"]
 
-fr=input('enter any fruit:')
+fr = input("enter any fruit:")
+i = 0
 
-i=0
-while fr!=fruits[i]:
-    if fr==fruits[i]:
-        print(fruits.append(fr))
+
+while i < 4:
+    if fruits[i] == fr:
+        fruits.remove(fr)     
+        break   
     i=i+1
-    
+else:
+    fruits.append(fr)       
     
 
-if fr!=fruits[i]:
-    print(fruits.pop(0))
 
-        
+
+
+print(fruits)
