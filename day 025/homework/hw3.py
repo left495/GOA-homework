@@ -4,3 +4,8 @@
 
 nums = [1, 2, 3, 2, 4, 2, 5]
 
+num1=int(input('enter any number'))
+counted=nums.count(num1)
+
+
+print(counted)
