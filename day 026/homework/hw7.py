@@ -20,4 +20,3 @@ while i<len[n]:
 
 
 print(n)
-
