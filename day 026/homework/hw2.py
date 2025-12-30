@@ -3,7 +3,6 @@
 
 n=[]
 
-num=input('enter any numbers:')
 
 
 while True:
