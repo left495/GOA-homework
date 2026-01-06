@@ -8,6 +8,7 @@ while True:
     num=input('enter any number :')
     if num=="stop":
         print(sum/i)
+        break
         
     i+=1
     n=int(num)

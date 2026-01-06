@@ -21,8 +21,3 @@ while True:
     
     if number not in n:
         n.insert(0,number)
-
-    
-
-
-
