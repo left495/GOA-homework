@@ -15,7 +15,7 @@ while True:
         break
     num=int(num)
 
-    if num%2==(0):
+    if num>0:
         list.append(num)
 
         
