@@ -1,0 +1,28 @@
+
+p{
+    color:red ;
+    background-color:black ;
+    text-align: center;
+    font-size:25px ;
+    border:blue solid  5px;
+
+}
+
+
+h1{
+    color:purple ;
+    background-color: grey;
+    text-align: right;
+    font-size: 30px;
+    border: yellow solid 10px;
+
+}
+
+
+button{
+    color:cyan ;
+    background-color: green;
+    font-size: 15px;
+    border: orange solid 7px;
+
+}
