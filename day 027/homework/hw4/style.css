@@ -1,0 +1,25 @@
+
+p{
+    color: red;
+    background-color:purple ;
+    font-size:40px ;
+    text-align:center ;
+    border:brown solid 3px ;
+}
+
+
+button{
+    color: blue;
+    background-color:pink ;
+    font-size:41px ;
+    border:orange solid 4px ;
+}
+
+
+h1{
+    color: green;
+    background-color:yellow ;
+    font-size:42px ;
+    text-align:right ;
+    border:gray solid 5px ;
+}

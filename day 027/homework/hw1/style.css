@@ -1,0 +1,20 @@
+/* 
+CSS-ში:
+h1 ტექსტი იყოს ლურჯი , ზომაში 50px , იყოს ცენტრში
+
+p ტექსტი იყოს ნაცრისფერი,ფონის ფერი ლურჯი , ბორდერი ყვითელი , განლაგება მარჯვნივ */
+
+
+h1{
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+p{
+    background-color: blue;
+    color: gray;
+    border: yellow solid 1px;
+    text-align: right;
+}
