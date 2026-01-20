@@ -22,8 +22,6 @@ while True:
         break
     l+=1
 
-        
-        
 
 for i in range(len(list)):
     print(list[i])

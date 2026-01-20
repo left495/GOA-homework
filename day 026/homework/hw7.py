@@ -3,20 +3,15 @@
 # 7) მომხმარებელს შემოაყვანინე რიცხვები, ეს რიცხვები დაამატე სიაში, თუ ორი მეზობელი ელემენტის ჯამი <50-ზე მაშინ წაშალე მეორე ელემენტი, დაბეჭდე საბოლოო სია.
 
 
-nums=[]
+number=[]
 
-count=int(input('how many munbers do u want ?'))
+while True:
+    num=input('enter a number or stop :')
+    if num=='stop':
+        break
+    number.append(int(num))
+    if len(number) >= 2:
+        if number[-1] +number[-2]<50:
+            number.pop()
 
-for i in range(count):
-    nums.append(int(input('enter number:')))
-
-
-i=0
-
-while i<len(nums) -1:
-    if nums[i] + nums[i+1]<50:
-        nums.pop(i+1)
-    else:
-        i+=1
-
-print(nums)
+print(number)
