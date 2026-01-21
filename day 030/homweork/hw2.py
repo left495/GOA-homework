@@ -12,6 +12,7 @@ while n<len(list1):
         list1[n]=list1[n].upper()
     else:
         was.append(list1[n])
+    n+=1
 
 for i in range(len(was)):
     list1.remove(was[i])
