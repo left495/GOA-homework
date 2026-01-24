@@ -1,0 +1,23 @@
+
+.ertnairi{
+    border: 2px solid darkred;
+}
+
+.pirveligan{
+    color: red;
+    font-size: 20px;
+    background-color: purple;
+}
+
+.meoregan{
+    color: blue;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+.mesamegan{
+    color: pink;
+    font-size: 30px;
+    background-color: green;
+}
+
