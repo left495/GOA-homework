@@ -1,0 +1,37 @@
+
+
+#pirveli{
+    color:red ;
+    background-color: blue;
+    font-size: 20px;
+    text-align:center; 
+ 
+}
+
+#meore{
+    color: green;
+    background-color:red ;
+    font: size 25px; ;
+    text-align: right;
+}
+
+#mesame{
+    color:purple ;
+    background-color:yellow ;
+    font: size 15px; ;
+    text-align: left;
+}
+
+#meotxe{
+    color:cyan ;
+    background-color: maroon;
+    font-size: 27px;
+    text-align:right; 
+}
+
+#meeqvse{
+    color: magenta;
+    background-color:firebrick ;
+    font: size 30px; ;
+    text-align:center; 
+}
