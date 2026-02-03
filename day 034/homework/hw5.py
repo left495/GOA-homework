@@ -6,9 +6,12 @@
 # [1, 2, 3, 4, 5, 6]. გამოიყენე for ციკლი და if. გამოიძახეთ ფუნქცია.
 
 def fun():
-    nums=[2,3,56,43223,234,3456,34432,787,9]
-    for i in range(len(nums)):
-        if nums[i]>nums[i+1]:
-            nums.insert(-1,nums[i])
-            nums.remove(nums[i])
-            i-=1
+    numb=[1,2,2,3,4,5,6,6]
+    new_num=[]
+
+    for num in numb:
+        if num not in new_num:
+            new_num.append(num)
+    print(new_num)
+
+fun()

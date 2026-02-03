@@ -13,5 +13,5 @@ def fun():
             num=int(n[i])
             jami+=num
     print(jami)
-    
+
 fun()
