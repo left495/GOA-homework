@@ -1,0 +1,13 @@
+
+
+#first{
+    text-decoration: double underline pink;
+}
+
+#second{
+    text-decoration: dashed line-through green;
+}
+
+#third{
+    text-decoration: overline dotted blue;
+}
