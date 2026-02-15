@@ -1,0 +1,11 @@
+p{
+    text-transform: uppercase;
+}
+
+#first{
+    text-transform: lowercase;
+}
+
+#second{
+    text-transform: capitalize;
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+
+
+}
+b{
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 0px 0px 10px green;
+    text-align: center;
+    
+}

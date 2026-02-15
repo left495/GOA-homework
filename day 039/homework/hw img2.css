@@ -1,0 +1,12 @@
+
+
+body{
+    background-color: rgba(0, 0, 0, 0.789);
+}
+
+b{
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px -2px  gray ;
+    text-align: center;
+}
