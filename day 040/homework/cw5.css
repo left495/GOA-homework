@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+p{
+    text-shadow: 2px 2px 2px;
+    font-family: "Bangers", system-ui;
+}
