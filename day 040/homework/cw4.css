@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
 
 p{
-    font-family: "Oswald", sans-serif;
+    font-family: "Libre Baskerville", serif;
+
 }
 
 h1{
     text-align: center;
-    font-family: "Libre Baskerville", serif;
+    font-family: "Oswald", sans-serif;
 }
+
+
+
