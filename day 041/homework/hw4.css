@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+GDL&display=swap');
+
+
+li:hover{
+    background-color: blueviolet;
+    font-family: "Betania Patmos GDL", cursive;
+    text-transform: uppercase;
+}

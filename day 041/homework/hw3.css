@@ -1,0 +1,6 @@
+
+div:hover{
+    background-color:blue ;
+    color: red;
+    border: green 2px solid;
+}

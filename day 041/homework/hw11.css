@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos+GDL&display=swap');
+
+a:link{
+    font-family: "Betania Patmos GDL", cursive;
+    background-color: red;
+    color: green;
+}

@@ -1,0 +1,13 @@
+
+a{
+    color: red;
+    background-color: yellow;
+    border: 1px maroon double;
+}
+
+
+
+a:link{
+    background-color: aqua;
+    border: 3px dotted rgb(141, 90, 14) ;
+}

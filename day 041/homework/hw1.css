@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    
+
+}
+
+div:hover{
+    background-color: blue;
+    color: red;
+}
