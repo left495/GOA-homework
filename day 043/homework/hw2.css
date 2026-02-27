@@ -1,0 +1,13 @@
+table{
+    border: cyan 1px solid;
+    border-collapse: collapse;
+}
+
+th{
+    border: rgb(46, 111, 111) 1px solid;
+    background-color: cyan;
+}
+
+td{
+    border: rgb(46, 111, 111) 1px solid;
+}

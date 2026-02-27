@@ -1,0 +1,61 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+    color: blue;
+}
+
+td{
+    border: 1px solid black;
+}
+
+.one{
+    background-color: burlywood;
+}
+
+.num{
+    background-color: yellow;
+}
+
+.men{
+    background-color: blue;
+}
+
+.two{
+    background-color: red;
+}
+
+.animal{
+    background-color: brown;
+}
+
+.animals{
+    background-color: coral;
+}
+
+.boy{
+    background-color: coral;
+}
+
+.man{
+    background-color: gainsboro;
+}
+
+
+.tab{
+    background-color: rgb(165, 148, 81);
+}
+
+.four{
+    background-color: gray;
+}
+
+.plu{
+    background-color: aquamarine;
+}
+
+.sin{
+    background-color: darksalmon;
+}
