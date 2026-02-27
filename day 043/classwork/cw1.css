@@ -1,0 +1,12 @@
+th{
+    background-color: green;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: blue;
+}
