@@ -2,15 +2,18 @@
 
 #first{
     list-style-image: url(mwva.jpg);
+    font-size: 1px;
 }
 
 
 #second{
     list-style-image: url(wit.jpg);
+    font-size: 1px;
 }
 
 
 #third{
     list-style-image: url(squ.png);
+    font-size: 1px;
 }
 
