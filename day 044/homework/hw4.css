@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+
+body{
+    background-color: rgb(76, 157, 250);
+}
+
+input{
+    color: gray;
+    width: 350px;
+    height: 30px;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+button{
+    color: gray;
+}
+
+p{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
