@@ -1,0 +1,15 @@
+
+
+.perent{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    display: flex;
+    align-items: end;
+    background-color: white;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}

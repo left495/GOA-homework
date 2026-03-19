@@ -1,0 +1,25 @@
+.perent{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    border: 5px rgb(0, 0, 0) solid;
+    justify-content: end;
+
+}
+
+.f{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.s{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.t{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}

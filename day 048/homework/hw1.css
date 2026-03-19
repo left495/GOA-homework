@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.fir{
+    background-color: red;
+
+}
+
+.sec{
+    background-color: blue;
+}
+
+.th{
+    background-color: green;
+}

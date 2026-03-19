@@ -1,0 +1,18 @@
+
+.perent{
+    height: 300px;
+    width: 500px;
+    border: black solid 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+div{
+    background-color: red;
+    border: 2px solid black;
+    height: 50px;
+    width: 70px;
+
+}

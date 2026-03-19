@@ -1,0 +1,21 @@
+
+.perent{
+    background-color:white;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+;
+}
+
+div{
+    height: 90px;
+    width: 90px;
+    background-color: red;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
