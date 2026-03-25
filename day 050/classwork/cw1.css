@@ -1,0 +1,17 @@
+.perent{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items:center ;
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+     /* justify-content: space-between;  */
+    border: 5px black solid;
+}
+
+
+.child{
+    background-color: purple;
+    height: 60px;
+    width: 60px;
+}
