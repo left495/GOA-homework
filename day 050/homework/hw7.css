@@ -1,0 +1,6 @@
+ul{
+    border: 2px black solid;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
