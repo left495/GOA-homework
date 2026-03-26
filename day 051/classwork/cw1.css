@@ -1,0 +1,27 @@
+.per{
+    height: 500px;
+    width: 700px;
+    gap: 20px;
+    display:flex;
+    border: black solid 2px;
+    background-color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.fir{
+    align-self: self-start;
+}
+
+.sec{
+    align-self: self-end;
+}
+
+
+div{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+}
