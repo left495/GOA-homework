@@ -1,0 +1,32 @@
+
+
+.per{
+    display: flex;
+    border: 3px black solid;
+    align-items: center;
+    gap: 40px;
+    padding-left: 20px;
+ 
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+button{
+    height: 40px;
+    width: 40px;
+    flex-shrink: 0;
+}
+li{
+    list-style-type: none;
+}
+
+img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-shrink: 0;
+}
