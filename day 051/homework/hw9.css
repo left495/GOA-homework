@@ -1,0 +1,38 @@
+/* პირველი იყოს 100px
+მეორე — 200px
+მესამე — 300px
+მეოთხე — 150px */
+
+div{
+    background-color: red;
+    height: 150px;
+    border: 3px solid black;
+}
+
+body{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.fir{
+    display: flex;
+    flex-basis: 150px;
+}
+
+
+.sec{
+    display: flex;
+    flex-basis: 160px;
+}
+
+.thi{
+    display: flex;
+    flex-basis: 170px;
+}
+
+
+.fou{
+    display: flex;
+    flex-basis: 180px;
+}

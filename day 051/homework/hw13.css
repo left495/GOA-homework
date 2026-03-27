@@ -1,0 +1,18 @@
+.per{
+    background-color: white;
+    display: flex;
+    border: 5px solid black;
+    height: 400px;
+    width: 400px;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: nowrap;
+}
+
+div{
+    display: flex;
+    flex-basis: 300px;
+    background-color: green;
+    height: 300px;
+
+}

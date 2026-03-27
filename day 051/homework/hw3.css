@@ -1,0 +1,27 @@
+.per{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    border: black solid 5px;
+    padding: 20px;
+    gap: 20px;
+}
+
+div{
+    background-color: red;
+    width: 70px;
+    height: 70px;
+}
+
+.down{
+    align-self: flex-end;
+}
+
+.up{
+    align-self: flex-start;
+}
+
+.center{
+    align-self: center;
+}

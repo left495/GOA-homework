@@ -1,0 +1,21 @@
+.per{
+    background-color: white;
+    display: flex;
+    border: 2px black solid;
+    width: 400px;
+    height: 400px;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+div{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+
+}
+
+.sec{
+    flex-grow: 3;
+}
