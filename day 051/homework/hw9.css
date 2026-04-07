@@ -17,22 +17,22 @@ body{
 
 .fir{
     display: flex;
-    flex-basis: 150px;
+    flex-basis: 100px;
 }
 
 
 .sec{
     display: flex;
-    flex-basis: 160px;
+    flex-basis: 200px;
 }
 
 .thi{
     display: flex;
-    flex-basis: 170px;
+    flex-basis: 300px;
 }
 
 
 .fou{
     display: flex;
-    flex-basis: 180px;
+    flex-basis: 150px;
 }
