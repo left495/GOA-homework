@@ -17,7 +17,13 @@
 
     
 }
-
+.div1{
+    background-color: red;
+    height: 75px;
+    width: 75px;
+    border: black solid 2px ;
+    flex-grow: 2;
+}
 
 .div:hover{
     background-color: green;
