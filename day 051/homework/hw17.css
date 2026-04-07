@@ -15,6 +15,5 @@ div{
     background-color: green;
 }
 .sec{
-    display: flex;
     flex-grow: 2;
 }
