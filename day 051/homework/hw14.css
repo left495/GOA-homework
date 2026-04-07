@@ -19,3 +19,7 @@ div{
     display: flex;
     flex-shrink: 0;
 }
+
+.fir{
+    flex-shrink: 2;
+}
