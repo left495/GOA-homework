@@ -9,9 +9,8 @@
 }
 
 div{
-    height: 150px;
-    width: 150px;
     background-color: blue;
     display: flex;
-    flex-grow: 1;
+    height: 200px;
+    flex: 2 0 150px;
 }
