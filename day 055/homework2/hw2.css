@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'League Spartan';
+    height: 900px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:50px ;
+    background-color: hsl(300, 24%, 96%);
+}
+#per{
+    height: 484px;
+    width: 870px;
+    border: none;
+    background-color:hsl(0, 0%, 100%) ;
+    box-shadow: 0px 0px 10px  gray;
+    padding-left: 103px;
+    padding-bottom: 0px;
+    padding-top: 40px;
+    padding-right: 103px;
+    
+}
+
+.child1{
+    border:none;
+    height: 270px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: hsl(300, 43%, 22%);
+}
+.firstdiv{
+    display: flex;
+    height: 50%;
+}
+
+h1{
+    font-weight: bolder;
+    white-space: pre;
+
+}
+
+.p1{
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.child1_1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.child2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 44px;
+    width: 50%;
+    margin-left: 50px;
+}
+.child2_1{
+    display: flex;
+    height: 35px;
+    width: 267px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-top: 10px;
+    gap: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(247, 242, 248);
+    
+}
+
+.p2{
+    color: rgb(80, 32, 80);
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+img{
+    width: 10px;
+    height: 10px;
+}
+
+#sec{
+    align-self: center;
+}
+#thi{
+    align-self: flex-end;
+}
+
+.child3us{
+    background-color: rgb(81, 31, 80);
+    height: 135px;
+    width: 270px;
+    border-radius: 5px;
+}
+
+.child3{
+    display: flex;
+    gap: 20px;
+    justify-content:start;
+
+}
+
+
+
+#divlast2{
+    align-self: center;
+}
+
+#divlast3{
+    align-self: flex-end ;
+}
