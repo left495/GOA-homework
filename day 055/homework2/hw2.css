@@ -107,12 +107,14 @@ img{
     height: 135px;
     width: 270px;
     border-radius: 5px;
+    padding: 22px 20px;
 }
 
 .child3{
     display: flex;
     gap: 20px;
     justify-content:start;
+    height: 157px;
 
 }
 
@@ -125,3 +127,42 @@ img{
 #divlast3{
     align-self: flex-end ;
 }
+
+.img2{
+    height: 23px;
+    width: 23px;
+    border-radius: 10px;
+}
+
+.h1_child3{
+    color: white;
+    font-size: 9px;
+    margin-bottom: 4px;
+}
+
+
+.child3_1{
+    display: flex;
+    margin-bottom: 19px;
+}
+
+#h3_1{
+    color:rgb(176, 100, 153) ;
+    margin-bottom: 0px;
+}
+
+.child3_2{
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.pre3_2{
+    color: white;
+    font-size: 9px;
+    margin-top: 5px;
+}
+class="img2"
+class="child3_2"
+class="h1_child3"
+id="h3_1" class="h1_child3"
+class="pre3_2"
