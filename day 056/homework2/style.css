@@ -98,6 +98,10 @@ body{
     font-weight: 300;
 }
 
+button:active{
+    background-color: rgb(82, 57, 246);
+}
+
 
 .div1{
     padding:27px 23px;
