@@ -38,7 +38,7 @@ body{
 .p11{
     color: rgb(209, 195, 255);
     font-size: 15px;
-    margin-left: 24px;
+    margin-left: 37px;
     font-weight: 600;
 }
 
@@ -99,7 +99,7 @@ body{
 }
 
 button:active{
-    background-color: rgb(82, 57, 246);
+    background-color:rgb(72, 53, 241) ;
 }
 
 
