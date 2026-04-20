@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Epilogue", sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding-top: 109px ;
+    padding-left: 378px;
+    background-color: rgb(236, 236, 236);
+}
+
+.per{
+    border: none;
+    background-color: white;
+    height: 729px;
+    width:1163px;
+    font-size: 14px;
+}
+
+.up{
+    display: flex;
+    flex-direction: row;
+
+}
+
+p{
+    font-size:12px ;
+    color: rgb(137, 137, 137);
+    font-weight: 500;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-left: 48px;
+    padding-top: 28px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.h1f{
+    margin-top: 19px;
+    margin-left: 33px;
+    
+}
+
+
+.up1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+option{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.imgdiv{
+    display: flex;
+    gap: 4px;
+}
+
+img{
+    margin-top: 3px;
+    width: 8px;
+    height: 5px;
+}
+
+.up2{
+    display: flex;
+    flex-direction: row;
+    margin-left:auto ;
+}
+
+button{
+    border: 2px rgb(137, 137, 137) solid;
+    color: rgb(137, 137, 137);
+    margin: 16px 32px;
+    background-color: white;
+    height:35px;
+    width: 85px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight:700 ;
+
+}
+
+.p12{
+    margin-top: 28px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.down{
+    display: flex;
+}
+.down1{
+    padding-top: 121px;
+    padding-left: 133px;
+}
+
+.h1big{
+    font-size: 63px;
+    margin-bottom:2px ;
+}
+
+.psmall{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    opacity:0.7;
+}
+
+.psmall1{
+    margin-top: 45px;
+}
+
+
+.down1butt{
+    background-color: black;
+    border: none;
+    height: 44px;
+    width: 133px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-left: 0px;
+    color:rgb(248, 248, 248);
+    margin-top: 40px;
+}
+
+.divlogo{
+    margin-top:68px ;
+    display: flex;
+    gap: 30px;
+
+}
+
+.logoimgs{
+    height: 17px;
+
+}
+
+.fir{
+    margin-top: 10px;
+    width:93px ;
+}
+
+.sec{
+    height: 30px;
+    width: 60px;
+}
+
+.thi{
+    margin-top: 10px;
+    width: 75px;
+}
+
+.fou{
+    width: 70px;
+    margin-top: 10px;
+}
+
+.lastimg{
+    margin-top: 40px;
+    margin-left: 124px;
+    height: 516px;
+    width: 390px;
+}
