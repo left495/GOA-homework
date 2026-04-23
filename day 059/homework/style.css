@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans';
+    height: 900px;
+    width: 900px;
+    padding: 109px 378px;
+    background-color: rgb(240, 240, 240);
+}
+
+.perent{
+    height: 728px;
+    width: 1166px;
+    background-color: white;
+    padding: 24px 133px;
+
+}
+
+.navdiv{
+    height: 65px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navp{
+    color:gray;
+    font-size: 12px;
+    margin-top: 11px;
+    font-weight: 500;
+    margin-left: 7px;
+    
+}
+
+.navpfirst{
+    margin-left: 25px;
+
+}
+
+.h11{
+    margin-top: 1px;
+    font-size: 27px;
+    font-weight: 700;
+
+}
+
+.prof{
+    margin-top: 0px;
+    margin-left:307px;
+    gap: 38px;
+    display: flex;
+}
+
+.avatarimg{
+    width: 39px;
+    height: 39px;
+}
+
+.shoplogo{
+    width: 17px;
+    height: 17px;
+    margin-top: 11px;
+}
+
+.contentdiv{
+    padding:73px 40px;
+    display: flex;
+    gap: 100px;
+}
+
+.bigimg{
+    border-radius: 10px;
+    height: 360px;
+}
+.fourphotodiv{
+    padding-top: 22px;
+    display: flex;
+    gap: 26px;
+}
+
+.fourphoto{
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+}
+
+.firstfourphoto{
+    opacity: 0.3;
+    border: 2px solid rgb(199, 89, 4);
+    box-shadow: 0px 0px 10px rgba(255, 166, 0, 0.72);
+}
+
+.p12{
+    color:rgb(124, 127, 130);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.lastbigdiv{
+    padding-top:50px ;
+}
+
+.astbold{
+    font-size: 30px;
+}
