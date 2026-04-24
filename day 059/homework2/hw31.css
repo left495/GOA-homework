@@ -1,0 +1,21 @@
+
+.perent{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    border: 5px solid black;
+    position: relative;
+    align-items: flex-end;
+    justify-content: start;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+    border-radius: 20px;
+    position: absolute;
+    right: 50px;
+}
+

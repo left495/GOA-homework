@@ -1,0 +1,34 @@
+
+
+div{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+
+.fir{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.sec{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
+.thi{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.fou{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
