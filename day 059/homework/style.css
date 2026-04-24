@@ -100,13 +100,116 @@ body{
 .p12{
     color:rgb(124, 127, 130);
     font-weight: 700;
-    font-size: 12px;
+    font-size: 13px;
+    margin-bottom: 10px;
 }
 
 .lastbigdiv{
     padding-top:50px ;
 }
 
-.astbold{
-    font-size: 30px;
+.lastbold{
+    font-size: 34px;
+    margin: 0px;
+}
+
+.lastp{
+    font-size:13px ;
+    color: rgb(56, 57, 61);
+}
+
+.lastpdiv{
+    padding-top: 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.divpr{
+    margin-top: 20px;
+    display: flex;
+    gap: 17px;
+}
+
+.price{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.fif{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    height: 22px;
+    width: 43px;
+    margin-top: 5px;
+}
+
+.oldprice{
+    text-decoration-line: line-through;
+    color: rgb(101, 104, 109);
+    font-size: 13px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.buy{
+    padding-top: 28px;
+    display: flex;
+    gap: 12px;
+}
+
+.add1{
+    height: 46px;
+    width: 127px;
+    background-color: rgb(247, 248, 253);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.plus{
+    margin-top: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+.minus{
+    margin-top: 6px;
+    height: 3px;
+    width: 10px;
+}
+
+.firstimg{
+    margin-top: 11px;
+    width: 112px;
+    height: 17px;
+}
+
+.zero{
+    font-size: 13px;
+    font-weight: 700;
+}
+.last{
+    height: 46px;
+    background-color: rgb(255, 125, 27);
+    color: black;
+    display: flex;
+    gap: 13px;
+    border-radius: 9px;
+    width: 220px;
+    padding-left:60px;
+    padding-top: 16px;
+}
+
+.lasth{
+    font-size: 13px;
+}
+
+.busket{
+    margin-left: 2px;
+    height: 14px;
+    width: 14px;
 }
