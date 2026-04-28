@@ -1,0 +1,11 @@
+
+div{
+    position: sticky;
+    top: 40px;
+    height: 200px;
+    width:500px;
+    bottom: 65px;
+    border: 2px solid black;
+    background-color: red;
+}
+

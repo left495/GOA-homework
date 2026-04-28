@@ -1,0 +1,31 @@
+
+
+.fir{
+    background-color: green;
+    height: 260px;
+    width: 280px;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.sec{
+    background-color: blue;
+    height: 130px;
+    width: 350px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 2;
+}
+
+.thi{
+    background-color: red;
+    height: 150px;
+    width: 330px;
+    position: absolute;
+    top: 70px;
+    left: 140px;
+    z-index: 3;
+}
