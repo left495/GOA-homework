@@ -1,0 +1,22 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 100px;
+    bottom: 100px;
+}
+
+
+.fir{
+    align-self: flex-end;
+}
+
+.thi{
+    align-self: center;
+}

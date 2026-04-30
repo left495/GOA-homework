@@ -1,0 +1,13 @@
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    background-color: rgb(58, 146, 188);
+    gap: 30px;
+    
+}
+

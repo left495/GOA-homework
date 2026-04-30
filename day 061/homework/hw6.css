@@ -1,0 +1,18 @@
+
+
+img{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top: 20px;
+}
+
+.fir{
+    left: 50%;
+}
+
+.sec{
+    left: 90%;
+}

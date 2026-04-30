@@ -1,0 +1,25 @@
+
+
+div{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.fir{
+    top: 100px;
+    left: 100px;
+    background-color: blue;
+    z-index: 2;
+}
+
+
+.sec{
+    top: 140px;
+    left: 140px;
+    background-color: rgb(32, 139, 89);
+}

@@ -1,0 +1,26 @@
+
+
+div{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    opacity: 0.5;
+    background-color: rgb(255, 50, 161);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+
+.fir{
+    top: 100px;
+    left: 300px;
+    background-color: blue;
+}
+
+.sec{
+    top: 280px;
+    left: 170px;
+    background-color: green;
+}
