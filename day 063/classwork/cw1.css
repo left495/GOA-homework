@@ -1,0 +1,19 @@
+body{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 500px;
+    width: 500px;
+    background: url(download.jpg) no-repeat center/cover ;
+
+}
+
+/*     background-image: url(download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
