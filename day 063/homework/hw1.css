@@ -1,0 +1,8 @@
+
+
+div{
+    height: 300px;
+    width: 300px;
+    background: url(download.jpg) no-repeat center/contain;
+    border: 1px solid black;
+}

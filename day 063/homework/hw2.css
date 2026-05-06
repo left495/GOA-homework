@@ -1,0 +1,6 @@
+div{
+    height: 250px;
+    width: 400px;
+    background: url(download.jpg) no-repeat top left/100px ;
+    border: 1px solid black;
+}

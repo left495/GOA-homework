@@ -1,0 +1,17 @@
+
+div{
+    height: 500px;
+    width: 500px;
+    background: url(download.jpg) no-repeat center/cover;
+}
+
+
+h1{
+    color: yellow;
+    position: relative;
+    left: 75%;
+}
+
+
+
+
