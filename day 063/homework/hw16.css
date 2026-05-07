@@ -1,0 +1,25 @@
+
+
+
+body{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+
+}
+
+div:hover{
+    height: 50%;
+    width: 50%;
+    transform-origin: top left;
+    transform: rotate(20deg) translate(200px) ;
+}
+

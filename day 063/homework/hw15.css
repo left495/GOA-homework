@@ -1,0 +1,23 @@
+
+
+
+
+body{
+    height: 900px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+
+}
+
+div:hover{
+    transform: scale(1.2) rotate(360deg) translate(50px,50px);
+}
+
