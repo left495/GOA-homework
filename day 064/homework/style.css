@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-
 *{
-    font-family: "Space Grotesk", sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
 body{
+    font-family: "Space Grotesk", sans-serif;
     display: flex;
     background-color: black;
     padding-top: 23px;
@@ -17,9 +16,95 @@ body{
 
 
 .left{
-    background-color: rgb(33, 9, 47);
+    background-image: url(bg-main-desktop.png);
     width:483px ;
     height:900px ;
+}
+
+
+
+.img1{
+    box-shadow:0px 39px 60px rgba(0, 0, 0, 0.14);
+    height: 245px;
+    width: 447px;
+    background-image: url(bg-card-front.png) ;
+    padding-top: 28px;
+    padding-left: 32px;
+}
+
+
+.imgdiv{
+    display: flex;
+    flex-direction: column;
+    height:527px ;
+    width: 541px;
+    position: absolute;
+    gap: 37px;
+    top: 210px;
+    left: 404px;
+}
+
+
+.smallimg{
+    width: 84px;
+    height: 47px;
+    position: relative;
+
+}
+
+
+.p11{
+    margin-top: 60px;
+    font-size: 28px;
+    letter-spacing: 3.42px;
+    font-weight: 400;
+    color: white;
+}
+
+
+.bot{
+    height: 18px;
+    width: 383.14px;
+    margin-top: 25px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+.p12{
+    position: relative;
+    left: 192px;
+}
+.img2{
+    box-shadow:0px 39px 60px rgba(0, 0, 0, 0.14);
+
+    height: 245px;
+    width: 447px;
+    background-image: url(bg-card-back.png) ;
+    align-self: flex-end;
+    padding-left: 358px;
+    padding-top: 111px;
+}
+
+.onlyp{
+    height: 18px;
+    font-size: 13.5px;
+    letter-spacing: 1.9px;
+    color: white;
+    width: 32px;
+}
+
+
+
+
+.perent{
+    width: 381px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    
 }
 
 
@@ -27,28 +112,92 @@ body{
     background-color:white ;
     width:957px ;
     height:900px ;
+    padding-left: 349px;
+    padding-top: 275px;
 }
 
-
-
-.img1{
-    width: 447px;
-    height: 245px;
-}
-
-.img2{
-    width: 447px;
-    height: 245px;
-    position: absolute;
-    left: 94px;
-}
-
-.imgdiv{
-    position: absolute;
-    left: 404px;
-    top: 210px;
+.one{
+    width: 381px;
+    height: 69px;
     display: flex;
-    height: 527px;
-    width: 541px;
+    flex-direction: column;
+    gap: 9px;
 }
 
+.label{
+    height: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.dd{
+    font-family: "Space Grotesk", sans-serif;
+    height: 45px;
+    border: 1px solid rgba(223, 222, 224, 1);
+    border-radius: 7px;
+    width: 381px;
+    font-size: 18px;
+    color:rgb(197, 196, 200) ;;
+    padding-left:16px ;
+}
+
+.lastdiv{
+    display: flex;
+    gap: 20px;
+}
+
+.datediv{
+    height: 69px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.da{
+    height: 45px;
+    width: 80px;
+    border: 1px solid rgba(223, 222, 224, 1);
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 16px;
+    color:rgb(197, 196, 200) ;
+}
+
+
+.inpd{
+    display: flex;
+    gap: 10px;
+}
+
+
+.inpd2{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+
+}
+
+.di{
+    height: 45px;
+    border: 1px solid rgba(223, 222, 224, 1);
+    width: 191px;
+    border-radius: 8px;
+    font-size: 18px;
+    padding-left: 16px;
+    color: rgb(197, 196, 200);
+}
+
+.butt{
+    position: relative;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(34, 9, 48);
+    top: 14px;
+    height: 53px;
+    width: 381px;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1px;
+}
