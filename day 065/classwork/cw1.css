@@ -1,0 +1,22 @@
+
+
+div{
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    border: 1px red solid;
+    transition: background-color 2s, border 5s, border-radius 3s,height 3s,width 6s,transform 7s linear ;
+}
+
+
+div:hover{
+    background-color: yellow;
+    border: 5px red solid;
+    border-radius:20px ;
+    height: 350px;
+    width: 400px;
+    transform: translateY(100px);
+}
+
+
+
