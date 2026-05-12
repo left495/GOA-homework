@@ -21,6 +21,10 @@ body{
     height:900px ;
 }
 
+input::placeholder{
+    opacity:50%;
+}
+
 
 
 .img1{
