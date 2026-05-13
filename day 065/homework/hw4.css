@@ -1,0 +1,11 @@
+img{
+    height: 100px;
+    width: 300px;
+    transition: opacity 0.5s,transform(scale) 0.7s,transform(rorate) 1.2s;
+    transition-delay: transform(rorate) 0.4s;
+}
+
+img:hover{
+    opacity: 0.5;
+    transform: scale(2) rotate(30deg);
+}

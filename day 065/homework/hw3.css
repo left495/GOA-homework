@@ -1,0 +1,18 @@
+
+
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: yellow;
+    transition:transform(translateY(-20px)) 0.4s,box-shadow 0.8s,transform(scale(2)) 0.5s ;
+    
+    
+}
+
+div:hover{
+    transform:translateY(-20px);
+    box-shadow: 5px 5px 0px black;
+    
+}
