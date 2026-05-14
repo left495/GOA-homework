@@ -1,0 +1,14 @@
+
+
+button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition-duration: 4s;
+    transition-delay: 2s;
+}
+
+button:active{
+    transform: rotate(45deg) scale(0.9);
+}

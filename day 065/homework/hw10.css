@@ -1,0 +1,14 @@
+
+
+div{
+    height: 300px;
+    width: 300px;
+    margin: 400px;
+    transition: 0.4s;
+    background-color: red;
+    border: 5px solid black;
+}
+
+div:hover{
+    transform: scale(1.2);
+}

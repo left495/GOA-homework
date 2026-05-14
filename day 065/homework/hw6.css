@@ -1,0 +1,17 @@
+
+.div{
+    margin: 500px;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    transform: scale(4);
+    transition:background-color 1.3s, transform 2.4s;
+}
+
+
+
+div:active{
+    transform: scale(2) rotate(30deg);
+}

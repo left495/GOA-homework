@@ -1,0 +1,14 @@
+
+div{
+    margin: 400px;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 3px solid black;
+    transition: 2s;
+}
+
+div:hover{
+    background-color: blue;
+    transform: translateX(50px);
+}

@@ -1,0 +1,13 @@
+
+li{
+    font-size: 12px;
+    text-decoration-style:none;
+    transition:color 1.2s,text-decoration-style 1s, font-size 0.3s ;
+}
+
+
+li:hover{
+    color: red;
+    text-decoration-style:solid;
+    font-size: 14px;
+}

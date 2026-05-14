@@ -1,0 +1,9 @@
+
+img{
+    transition: 3s;
+}
+
+img:hover{
+    transform: rotate(15deg);
+    opacity: 0.5;
+}

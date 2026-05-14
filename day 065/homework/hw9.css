@@ -1,0 +1,16 @@
+
+div{
+    height: 200px;
+    width: 200px;
+    margin: 400px;
+    transition: margin-top 0.5s,transform 0.8s,color 0.3s,box-shadow 0.2s ;
+    transition-delay: box-shadow 5s;
+}
+
+div:hover{
+    margin-top: 300px;
+    bottom: 100px;
+    transform: rotate(60deg);
+    color: red;
+    box-shadow: 0px 0px 10px gray;
+}
