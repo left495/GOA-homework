@@ -147,7 +147,9 @@ body{
 
 .orange{
     border-radius: 15px;
-    padding: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 65px;
     width: 65px;
     background-color: rgb(241, 103, 24);
