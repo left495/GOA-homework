@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+
+body{
+    display: flex;
+}
+
+.tm{
+    margin-top: 9px;
+    height: 40px;
+    width: 40px;
+}
+
+.perent{
+    width: 1110px;
+    padding:55px 165px;
+}
+
+.header{
+    height: 58px;
+}
+
+.preord{
+    width: 175px;
+    height: 58px;
+    border: 0px;
+    position: relative;
+    left: 895px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fsen{
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(123, 139, 173, 1);
+}
+
+.cont{
+    height: 580px;
+    margin-top: 83px;
+    display: flex;
+    gap: 125px;
+}
+
+#ora{
+    margin-top: 0px;
+    background-color: rgb(241, 103, 24);
+    border: 0px;
+    color: white;
+}
+
+.butt{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.oth{
+    position: absolute;
+    top: 196px;
+    left:1305px;
+    width: 255px;
+    height: 240px;
+    background-color: rgba(232, 239, 242, 1);
+}
+
+.bu{
+    margin-top: 20px;
+    color: rgba(123, 139, 173, 1);
+    margin-top: 9px;
+    height: 58px;
+    width:175px ;
+    font-size: 16px;
+    font-width: 700;
+    border-radius: 5px;
+}
+
+.gr3{
+    margin-left: 60px;
+    height:480px ;
+    width: 540px;
+}
+
+.type{
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.imgs{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.gr32{
+    height: 480px;
+    width: 255px;
+}
+
+.bit{
+    height: 480px;
+    width: 445px;
+}
+
+.imgcont{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin-top: 112px;
+    height: 265px;
+    width: 255px;
+    margin-left: 95px;
+}
+
+.bold{
+    
+    font-size: 32px;
+    font-weight:900 ;
+}
+
+.boldcont{
+    width: 255px;
+    color: rgba(123, 139, 173, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.enddiv{
+    height: 323px;
+    width: 255px;
+}
+
+.end{
+    margin-top: 168px;
+    display: flex;
+    gap: 30px;
+}
+
+.orange{
+    border-radius: 15px;
+    padding: 21px;
+    height: 65px;
+    width: 65px;
+    background-color: rgb(241, 103, 24);
+}
+
+.da{
+    margin-top: 48px;
+    font-size: 24px;
+    font-weight: 900;
+    width: 200px;
+}
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.da2{
+    position: relative;
+    bottom: 47px;
+}
+
+.cc{
+    width: 255px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(123, 139, 173, 1);
+}
+
+.cc2{
+    position: relative;
+    bottom: 50px;
+}
