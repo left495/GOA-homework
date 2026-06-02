@@ -28,6 +28,7 @@ body{
 }
 
 .preord{
+    border-radius: 10px;
     width: 175px;
     height: 58px;
     border: 0px;
