@@ -1,0 +1,24 @@
+
+
+div{
+
+    background: url(dd.png) center/cover no-repeat;
+    height: 200px;
+    width: 200px;
+    margin: 200px;
+    animation: dd 2s ease-out  infinite normal none;
+
+}
+
+
+@keyframes dd {
+    0% {transform:scale(1) ;}
+     
+    25% {transform: scale(1.15);}
+
+    50% {transform:scale(1) ;}
+
+    75% {transform:scale(1.15) ;}
+
+    100% {transform:scale(1) ;}
+}
