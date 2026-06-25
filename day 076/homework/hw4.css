@@ -1,0 +1,22 @@
+
+.div{
+    height: 600px;
+    width: 600px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.red{
+    background-color: red;
+
+}
+
+.row{
+    grid-row-start: span 2;
+}
+
+.column{
+    grid-column-start: span 2;
+}

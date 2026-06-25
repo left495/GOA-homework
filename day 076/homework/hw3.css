@@ -1,0 +1,28 @@
+.div{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+}
+
+.pink{
+    background-color: rgb(151, 35, 55);
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+
+.yell{
+    background-color: rgb(187, 146, 22);
+    grid-column-start: span 2;
+}
+
+.purp{
+    background-color: purple;
+    
+}
+
+.grey{
+    background-color: grey;
+}

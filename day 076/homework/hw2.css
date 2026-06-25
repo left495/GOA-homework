@@ -1,0 +1,62 @@
+.div{
+    height: 600px;
+    width: 600px;
+    border: 5px solid black;
+    display: grid;
+    grid-template-columns: 20% 20%  20% 20% 20%;
+    grid-template-rows:  25% 25%  25% 25% ;
+}
+
+.red{
+    background-color: red;
+    border: 5px solid black;
+}
+
+.cyan{
+    background-color: cyan;
+    border: 5px solid black;
+}
+
+.brown{
+    background-color: burlywood;
+    border: 5px solid black;
+}
+
+.white{
+    background-color: white;
+    border: 5px solid black;
+}
+
+.fred{
+    grid-row-start: span 2;
+}
+
+.fcyan{
+    grid-column-start: span 2;
+}
+
+.fbrown{
+    grid-column-start: span 2;
+}
+
+.sbrown{
+    grid-row-start: span 2;
+}
+
+.fwhite{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.sred{
+    grid-row-start: span 3;
+}
+
+.swhite{
+    grid-row-start: span 2;
+}
+
+.tred{
+    grid-column-start: span 2;
+}
+
