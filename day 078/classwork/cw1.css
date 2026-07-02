@@ -1,0 +1,25 @@
+
+.per{
+    height: 800px;
+    width: 800px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: repeat(4,150px);
+    align-content: end;
+    justify-content: end;
+    align-items: end;
+    justify-items: center;
+}
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+#spec{
+    align-self: end;
+    justify-self: start;
+
+}
