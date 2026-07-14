@@ -1,22 +1,32 @@
-def interlockable(a, b):
-    for i in range(a):
-        if i*2>=a:
-            dd=i*2
-            break
-    result=''
-    while True:
-        if a==0:
-            return result
-        
-        else:
-            if dd<=a:
-                result+='1'
-                a=a-dd
-                dd=dd//2 
-            else:           
-                result+='0'
-            
-print(interlockable(9,0))
+# codewars 1
 
 
-print(10)
+# def interlockable(a, b):
+#     bya=''
+#     while a!=0:
+#         d=a%2
+#         a=a//2
+#         bya+=str(d)
+    
+#     byb=''
+    
+#     while b!=0:
+#         d=b%2
+#         b=b//2
+#         byb+=str(d)
+    
+#     if len(bya)>len(byb):
+#         dd=len(bya)-len(byb)
+#         byb+=dd*'0'
+#         bya=bya[::-1]
+#         byb=byb[::-1]
+#     elif len(bya)>len(byb):
+#         dd=len(byb)-len(bya)
+#         bya+=dd*'0'
+#         bya=bya[::-1]
+#         byb=byb[::-1]
+    
+#     for i in range(len(bya)):
+#             if bya[i]==byb[i] and bya[i]=='1':
+#                 return False   
+#     return True
