@@ -9,21 +9,24 @@
     font-family: "Roboto", sans-serif;
 }
 
-body{
-    height: 100vh;
-    padding: 40px 44px;
+body {
+    width: 100%;
+    min-height: 100vh;
 }
 
 header{
     height: 138px;
-    padding: 24px 117px;
+    padding: 64px 157px;
 }
-
-.header{
-    height: 56px;
-    width: 1055px;
+.header {
+    max-width: 1400px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+nav{
+    display: flex;
+    gap: 200px;
 }
 
 ul{
@@ -58,4 +61,41 @@ ul{
     gap: 8px;
 }
 
-/* @media (max-width:) */
+@media (max-width:1450px){
+    header{
+        padding:64px 50px;
+    }
+}
+
+.bur{
+    display: none;
+
+}
+
+
+
+
+@media (max-width:1200px){
+    nav{
+        gap: 100px;
+    }
+}
+
+@media (max-width:950px){
+    nav{
+        gap: 330px;
+    }
+    .bur{
+        display:block ;
+        height: 30px;
+    }
+    ul{
+        display: none;
+    }
+}
+
+@media (max-width:800px){
+    nav{
+        gap: 100px;
+    }
+}
