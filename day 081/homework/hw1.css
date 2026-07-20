@@ -61,23 +61,85 @@ ul{
     gap: 8px;
 }
 
-@media (max-width:1450px){
-    header{
-        padding:64px 50px;
-    }
-}
-
 .bur{
     display: none;
 
 }
 
+.firsection{
+    height: 554px;
+    background-color: rgb(240, 239, 235);
+}
 
+.firsection{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 200px;
+}
+
+
+
+
+
+.sect1main{
+    padding-top: 90px ;
+    width: 536px;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.sec1p{
+    font-size: 24px;
+    font-weight: 400;
+}
+.sec1but{
+    height: 36px;
+    width: 130px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+}
+
+.sec1h{
+    font-size: 60px;
+    font-weight: 700;
+}
+@media (max-width:1450px){
+    header{
+        padding:64px 50px;
+    }
+    .firsection{
+        padding-right: 0px;
+    }
+}
+
+
+@media (max-width:1300px){
+    .firsection{
+        padding-left:50px ;
+    }
+}
 
 
 @media (max-width:1200px){
     nav{
         gap: 100px;
+    }
+}
+
+@media (max-width:1050px){
+    .sec1h{
+        font-size: 30px;
+    }
+    .sec1p{
+        font-size: 16px;
+    }
+    .facesec1{
+        height: 400px;
+    }
+    .firsection{
+        height: 400px;
     }
 }
 
@@ -95,7 +157,52 @@ ul{
 }
 
 @media (max-width:800px){
+    .firsection{
+        display: flex;
+        flex-direction: column;
+        height: 720px;
+        padding-left: 0px;
+    }
+    .sect1main{
+        width: 780px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+    }
+}
+@media (max-width:700px){
     nav{
-        gap: 100px;
+        gap: 150px;
+    }
+    .sect1main{
+        padding:50px 50px;
+        align-items: center;
+        width: 500px;
+    }
+}
+
+@media (max-width:600px){
+    nav{
+        gap: 70px;
+    }
+}
+
+@media (max-width:500px){
+    .sect1main{
+        width: 400px;
+    }
+}
+
+@media (max-width:440px){
+    header{
+        padding: 64px 20px;
+    }
+    
+}
+
+@media (max-width:400px){
+    .sect1main{
+        width: 370px;
     }
 }
