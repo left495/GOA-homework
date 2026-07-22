@@ -66,15 +66,12 @@ ul{
 
 }
 
-.firsection{
-    height: 554px;
-    background-color: rgb(240, 239, 235);
-}
 
 .firsection{
+    background-color: rgb(240, 239, 235);
     display: flex;
     justify-content: space-between;
-    padding:0px 200px;
+    padding:50px 200px;
 }
 
 
@@ -138,9 +135,6 @@ ul{
     .facesec1{
         height: 400px;
     }
-    .firsection{
-        height: 400px;
-    }
 }
 
 @media (max-width:950px){
@@ -160,15 +154,15 @@ ul{
     .firsection{
         display: flex;
         flex-direction: column;
-        height: 720px;
+        align-items: center;
         padding-left: 0px;
     }
     .sect1main{
-        width: 780px;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 50px;
+
     }
 }
 @media (max-width:700px){
@@ -185,6 +179,9 @@ ul{
 @media (max-width:600px){
     nav{
         gap: 70px;
+    }
+    .facesec1{
+        height: 350px;
     }
 }
 
@@ -204,5 +201,8 @@ ul{
 @media (max-width:400px){
     .sect1main{
         width: 370px;
+    }
+    .facesec1{
+        height: 300px;
     }
 }
