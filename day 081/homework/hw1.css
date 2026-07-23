@@ -175,6 +175,7 @@ ul{
 .cardh1{
     font-size: 17px;
     font-weight: 700;
+    text-align: center;
 }
 
 .dd{
@@ -277,6 +278,11 @@ ul{
     .facesec1{
         height: 350px;
     }
+
+    .cardimg{
+        width: 300px;
+        height: auto;
+    }
 }
 
 @media (max-width:500px){
@@ -289,6 +295,11 @@ ul{
 @media (max-width:440px){
     header{
         padding: 64px 20px;
+    }
+
+    .cardimg{
+        width: 250px;
+        height: auto;
     }
     
 }
