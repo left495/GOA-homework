@@ -190,6 +190,7 @@ ul{
 .sec4{
     display: grid;
     grid-template-columns: 1fr;
+    border-bottom: rgb(200, 200, 200) solid 4px;
 }
 
 .fir{
@@ -245,6 +246,50 @@ ul{
 #sec4img{
     width: 387px;
 }
+
+.sec5{
+    max-width:1900px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0px;
+    gap: 70px;
+}
+
+.sec5h1{
+    width: 449px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+
+.colorsdiv{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+    row-gap: 110px;
+    column-gap: 24px;
+
+}
+
+.color{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.colh1{
+    text-align: center;
+    width: 211px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 @media (max-width:1450px){
     header{
         padding:64px 50px;
@@ -381,6 +426,11 @@ ul{
 }
 
 @media (max-width:600px){
+    .sec5h1{
+        font-size: 20px;
+        width: 200px;
+        text-align: center;
+    }
     nav{
         gap: 70px;
     }
@@ -398,7 +448,13 @@ ul{
     .sect1main{
         width: 400px;
     }
-
+    .colorsdiv{
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+    }
+    .sec5{
+        padding: 40px 0px;
+    }
 }
 
 @media (max-width:440px){
