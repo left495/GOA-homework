@@ -290,6 +290,59 @@ ul{
     font-size: 30px;
 }
 
+.sec6{
+    background: url(./img/Rectangle1.png)  bottom /100% 50% no-repeat;
+    max-width: 1900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 60px;
+    border-bottom: 3px solid rgb(226, 226, 226);
+    padding: 0px 40px;
+}
+
+.sec6h1{
+    max-width: 700px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.sec6div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ind{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+.sec6h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+ 
+.sec6p1{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec6p2{
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 700;
+}
 @media (max-width:1450px){
     header{
         padding:64px 50px;
@@ -331,6 +384,9 @@ ul{
 }
 
 @media (max-width:1050px){
+    .sec6h1{
+        font-size: 25px;
+    }
     .sec1h{
         font-size: 30px;
     }
@@ -367,6 +423,8 @@ ul{
     .sc4p2{
         font-size: 16px;
     }
+
+
     
 }
 
@@ -426,6 +484,9 @@ ul{
 }
 
 @media (max-width:600px){
+    .sec6h1{
+        font-size: 16px;
+    }
     .sec5h1{
         font-size: 20px;
         width: 200px;
