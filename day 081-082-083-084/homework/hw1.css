@@ -384,6 +384,9 @@ ul{
 }
 
 @media (max-width:1050px){
+    .sec6{
+        background: none;
+    }
     .sec6h1{
         font-size: 25px;
     }
