@@ -196,6 +196,93 @@ main{
     font-size: 15px;
     text-align: center;
 }
+.sec4{
+    display: flex;
+    padding: 100px 200px;
+    gap: 200px;
+    align-items: center;
+
+}
+
+.sec4img{
+    width: 500px;
+    height: 500px;
+}
+
+.sec4div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sec4but{
+    background-color: rgb(76, 175, 79);
+    border: none;
+    height: 40px;
+    width: 110px;
+    color: white;
+}
+.sec4h{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sec4p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sec5{
+    background-color: rgb(245, 247, 250);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px ;
+    align-items: center;
+}
+
+.sec5h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.green{
+    color: rgb(76, 175, 79);
+}
+
+.sec5divcont{
+    display: flex;
+    gap: 20px;
+}
+
+.sec5h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+.sec5p2{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width:1542px){
+    .sec4h{
+        font-size: 40px;
+    }
+    .sec4p{
+        font-size: 16px;
+    }
+    .sec4{
+        padding: 100px 30px;
+    }
+}
+
+@media (max-width:1300px){
+    .sec4{
+        gap: 0px;
+    }
+}
 
 @media (max-width:1200px){
     .sec2div{
@@ -218,11 +305,36 @@ main{
         gap: 0px;
     }
 
+    .sec4img{
+        width: 400px;
+        height: 400px;
+    }
+    .sec4h{
+        font-size: 25px;
+    }
 }
 
 @media (max-width:900px){
     header{
         padding: 20px 40px;
+    }
+}
+
+@media (max-width:850px){
+    .sec4{
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec4div{
+        width: 400px;
+        align-items: center;
+    }
+    .sec4h{
+        text-align: center;
+    }
+    .sec4p{
+        text-align: center;
     }
 }
 
@@ -259,5 +371,21 @@ main{
 @media (max-width:500px){
     .sec3h{
         width: 350px;
+    }
+
+    .sec4div{
+        width: 300px;
+    }
+    .sec4p{
+        font-size: 13px;
+    }
+
+    .sec4h{
+        font-size: 25px;
+    }
+
+    .sec4img{
+        width: 300px;
+        height: 300px;
     }
 }
