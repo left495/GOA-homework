@@ -120,7 +120,8 @@ main{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 150px;
+    gap: 100px;
+    padding: 50px 0px;
 }
 .sec2h{
     text-align: center;
@@ -194,6 +195,15 @@ main{
     font-weight: 400;
     font-size: 15px;
     text-align: center;
+}
+
+@media (max-width:1200px){
+    .sec2div{
+        gap: 70px;
+    }
+    .sec3cont{
+        gap: 100px;
+    }
 }
 @media (max-width:1000px){
     .sec1h{
