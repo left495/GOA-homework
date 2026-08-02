@@ -242,11 +242,20 @@ main{
 
 .sec5h1{
     font-size: 45px;
+    color: #4D4D4D;
     font-weight: 600;
 }
 
+
 .green{
     color: rgb(76, 175, 79);
+}
+
+.sec5div2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+    column-gap: 45px;
 }
 
 .sec5divcont{
@@ -292,9 +301,30 @@ main{
         gap: 100px;
     }
 }
+
+@media (max-width:1150px){
+    .sec5{
+        padding: 100px 20px;
+    }
+    
+}
 @media (max-width:1000px){
     .sec1h{
         font-size: 35px;
+    }
+
+    .sec5{
+        flex-direction: column;
+        gap: 100px;
+        padding: 50px 0px;
+    }
+
+    .sec5h1{
+        text-align: center;
+    }
+
+    .sec5p1{
+        text-align: center;
     }
     .threedot{
         padding: 100px 40px;
@@ -369,9 +399,18 @@ main{
 }
 
 @media (max-width:500px){
+
+    .sec5h1{
+        font-size: 25px;
+    }
+    .sec5div2{
+        grid-template-columns: auto;
+    }
+
     .sec3h{
         width: 350px;
     }
+
 
     .sec4div{
         width: 300px;
