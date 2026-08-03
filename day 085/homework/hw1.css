@@ -442,10 +442,16 @@ b{
 
 
 
+.contp1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
 .contp{
     font-size: 20px;
     font-weight: 600;
-    color: #717171;
+    color: #717171;   
 }
 
 .sec8rowp{
@@ -519,11 +525,16 @@ b{
     gap: 10px;
 }
 
-
 footer{
     height: 100px;
     width: 100px;
-    background-color: black;
+    background-color: rgb(38, 50, 56);
+}
+
+
+.footimg{
+    height: 100px;
+    width: 100px;
 }
 
 
