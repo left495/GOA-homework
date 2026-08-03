@@ -526,15 +526,96 @@ b{
 }
 
 footer{
-    height: 100px;
-    width: 100px;
     background-color: rgb(38, 50, 56);
+    position: relative;
+    top: 130px;
+    width: 100%;
+    padding: 70px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dd{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.footimg{
+    height: 40px;
+    width: 220px;
+}
+
+.footdiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.footdiv2{
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.footerlists{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footp{
+    width: 250px;
+    color: #F5F7FA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footicondiv{
+    display: flex;
+    gap: 15px;
+}
+
+.footicon{
+    height: 40px;
+    width: 40px;
 }
 
 
-.footimg{
-    height: 100px;
-    width: 100px;
+.lastp{
+    font-size: 16px;
+    font-weight: 300;
+    color: #F5F7FA;
+}
+
+
+
+.listsh1{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.lastbut{
+    background-color: rgb(81, 91, 96);
+    border: none;
+    border-radius: 5px;
+    color: #D9DBE1;
+    height: 35px;
+    width: 100%;
+    text-align: left;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastdiv{
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 
@@ -551,6 +632,13 @@ footer{
     }
     .sec4{
         padding: 100px 30px;
+    }
+}
+
+@media (max-width:1350px){
+    footer{
+        top: 200px;
+        padding: 70px 30px;
     }
 }
 
@@ -594,6 +682,12 @@ footer{
     .sec5{
         padding: 100px 20px;
     }
+
+    .footdiv2{
+        justify-content: center;
+        gap: 40px;
+    }
+
     
 }
 @media (max-width:1000px){
@@ -642,6 +736,12 @@ footer{
     header{
         padding: 20px 40px;
     }
+
+    footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
 }
 
 @media (max-width:889px){
@@ -655,6 +755,9 @@ footer{
     }
     .imgdiv3{
         top: 200px;
+    }
+    footer{
+        top: 300px;
     }
 }
 
@@ -744,6 +847,13 @@ footer{
     }
     .sec6h1{
         font-size: 30px;
+    }
+}
+
+
+@media (max-width:600px){
+    .footdiv2{
+        flex-wrap: wrap;
     }
 }
 
