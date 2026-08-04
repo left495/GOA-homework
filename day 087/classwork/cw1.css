@@ -1,0 +1,16 @@
+:root{
+    --col:green;
+    --fonts:40px;
+    --bor-rad:25%;
+    --back-col:brown;
+    --font-we:900;
+}
+
+
+h1{
+    color: var(--col);
+    font-size: var(--fonts);
+    border-radius: var(--bor-rad);
+    background-color: var(--back-col);
+    font-weight: var(--font-we);
+}
