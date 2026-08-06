@@ -1,0 +1,29 @@
+:root{
+    --bg-color:red;
+    --height:100px;
+    --width:100px;
+    --text-color:gray;
+    --text-size:40px;
+    --btn-text:30px;
+    --btn-color:green;
+    --radius:25%;
+}
+
+
+div{
+    background-color: var(--bg-color);
+    height: var(--height);
+    width: var(--width);
+}
+
+h1{
+    color: var(--text-color);
+    font-size: var(--text-size);
+}
+
+
+button{
+    font-size: var(--btn-text);
+    background-color: var(--btn-color);
+    border-radius: var(--radius);
+}
