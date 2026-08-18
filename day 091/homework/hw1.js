@@ -205,21 +205,21 @@
 // სხვა შემთხვევაში → "Unknown account"
 
 
-let username = "ADMIN_GOGA";
-let age = 25;
-let isActive = true;
+}// let username = "ADMIN_GOGA";
+// let age = 25;
+// let isActive = true;
 
-username=username.toLowerCase
+// username=username.toLowerCase
 
 
-if (username==false){
-    console.log("No username")
-}else if (username.startsWith('admin') && age>=18 && isActive==true){
-    console.log("Admin access")
-}else if (username.startsWith('user') && age>=18){
-    console.log("User access")
-}else if (age<18){
-    console.log("Access denied")
-}else{
-    console.log("Unknown account")
-}
+// if (username==false){
+//     console.log("No username")
+// }else if (username.startsWith('admin') && age>=18 && isActive==true){
+//     console.log("Admin access")
+// }else if (username.startsWith('user') && age>=18){
+//     console.log("User access")
+// }else if (age<18){
+//     console.log("Access denied")
+// }else{
+//     console.log("Unknown account")
+// }
