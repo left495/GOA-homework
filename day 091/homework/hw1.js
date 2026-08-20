@@ -205,14 +205,14 @@
 // სხვა შემთხვევაში → "Unknown account"
 
 
-}// let username = "ADMIN_GOGA";
+// let username = "ADMIN_GOGA";
 // let age = 25;
 // let isActive = true;
 
-// username=username.toLowerCase
+// username=username.toLowerCase()
 
 
-// if (username==false){
+// if (!username){
 //     console.log("No username")
 // }else if (username.startsWith('admin') && age>=18 && isActive==true){
 //     console.log("Admin access")
