@@ -224,3 +224,64 @@
 // console.log(calculateSalary(800,100));
 // console.log(calculateSalary(1500,200));
 // console.log(calculateSalary(900));
+
+
+// 10)შექმენი ფუნქცია:
+
+// checkExam(name, score = 0)
+
+// ფუნქციამ დააბრუნოს:
+
+// 90–100 → "name: Excellent"
+// 75–89 → "name: Very Good"
+// 60–74 → "name: Good"
+// 50–59 → "name: Passed"
+// 0–49 → "name: Failed"
+
+// თუ ქულა არ გადაეცა, ჩაითვალოს 0. შეასრულეთ switch ით -- hint --> switch(true){...}
+
+function checkExam(name, score = 0){
+    
+}
+
+
+// 11)შექმენი ფუნქცია:
+
+// ticketPrice(age, price = 50)
+
+// წესები:
+
+// 5 წლამდე → უფასო
+// 5–12 → ფასის 50%
+// 13–59 → სრული ფასი
+// 60 და ზემოთ → ფასის 30%
+
+// მაგალითად:
+
+// ticketPrice(4, 50)   // 0
+// ticketPrice(10, 50)  // 25
+// ticketPrice(25, 50)  // 50
+// ticketPrice(65, 50)  // 15
+// ticketPrice(20)      // 50
+
+// 12)შექმენი ფუნქცია:
+
+// analyzeNumber(number, limit = 100)
+
+// ფუნქციამ უნდა დააბრუნოს:
+
+// თუ რიცხვი უარყოფითია → "Negative"
+// თუ 0-ია → "Zero"
+// თუ დადებითია და limit-ზე ნაკლებია → "Small positive"
+// თუ limit-ზე მეტია → "Large positive"
+
+// შეასრულეთ ternary ით
+
+
+// function analyzeNumber(number, limit = 100){
+//     number<0 ?  'Negative' :
+//     number===0 ? 'Zero' :
+//     number>0 && number<limit ? 'Small positive': 'Large positive'
+// }
+
+// analyzeNumber(100,50)
