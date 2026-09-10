@@ -260,6 +260,12 @@
 
 // console.log(sentence.split(' '));
 
+// console.log(sentence.length);
+// console.log(sentence[0]);
+// console.log(sentence[sentence.length-1]);
+
+
+
 
 // 13)let students = "Nika,Gio,Luka,Ana,Saba";
 
