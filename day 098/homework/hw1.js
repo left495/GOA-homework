@@ -149,3 +149,188 @@
 // }
 
 // console.log(finalList([15, 25, 35, 45, 55, 65]));
+
+// start -----------------
+
+
+// 6)მოცემულია:
+// let students = [
+//     ["Giorgi", 18],
+//     ["Nika", 20],
+//     ["Luka", 17],
+//     ["Saba", 19]
+// ];
+// შექმენი ფუნქცია getStudent(students), რომელმაც უნდა:
+
+// გამოიტანოს პირველი სტუდენტის სახელი;
+// გამოიტანოს მეორე სტუდენტის ასაკი;
+// შეცვალოს მესამე სტუდენტის ასაკი 18-ზე;
+// დააბრუნოს განახლებული სია.
+
+// let students = [
+//     ["Giorgi", 18],
+//     ["Nika", 20],
+//     ["Luka", 17],
+//     ["Saba", 19]
+// ];
+
+
+
+// function getStudent(students){
+//     console.log(students[0][0]);
+//     console.log(students[1][0]);
+//     students[2][1] = 18
+//     console.log(students);
+    
+    
+// }
+
+// getStudent(students)
+
+// 7)
+// let products = [
+//     ["Laptop", 2500],
+//     ["Phone", 1500],
+//     ["Mouse", 80],
+//     ["Keyboard", 120]
+// ];
+// შექმენი ფუნქცია updateProducts(products).
+// ფუნქციამ უნდა:
+
+// "Laptop"-ის ფასი შეცვალოს 2300-ზე;
+// "Mouse"-ის ფასი გაზარდოს 100-მდე;
+// "Phone"-ის შემდეგ ჩასვას:["Tablet", 900]
+// წაშალოს ბოლო პროდუქტი
+// დააბრუნოს საბოლოო სია
+
+// let products = [
+//     ["Laptop", 2500],
+//     ["Phone", 1500],
+//     ["Mouse", 80],
+//     ["Keyboard", 120]
+// ];
+
+
+// function updateProducts(products){
+//     products[0][1] = 2300
+//     products[2][1]+=100
+//     products.splice(2,0,["Tablet", 900])
+//     products.pop()
+//     console.log(products);
+    
+// }
+
+// updateProducts(products)
+
+
+// 8)მოცემულია:
+// let store = [
+//     [
+//         "Electronics",
+//         [
+//             ["Laptop", 2500, ["Black", "Silver"]],
+//             ["Phone", 1500, ["Black", "White"]],
+//             ["Tablet", 900, ["Gray", "Blue"]]
+//         ]
+//     ],
+
+//     [
+//         "Clothes",
+//         [
+//             ["T-Shirt", 80, ["Red", "Black", "White"]],
+//             ["Jeans", 150, ["Blue", "Black"]],
+//             ["Jacket", 300, ["Black", "Brown"]]
+//         ]
+//     ],
+
+//     [
+//         "Shoes",
+//         [
+//             ["Nike", 400, ["Black", "White"]],
+//             ["Adidas", 350, ["White", "Blue"]],
+//             ["Puma", 250, ["Black", "Red"]]
+//         ]
+//     ]
+// ];
+
+// შექმენი ფუნქცია:
+
+// function manageStore(store) {
+    
+// }
+// დავალება
+// ფუნქციის შიგნით:
+
+// წამოიღე "Phone"
+// წამოიღე Phone-ის ფასი.
+// წამოიღე Phone-ის მეორე ფერი.
+// შეცვალე Tablet-ის ფასი 1000-ზე.
+// Laptop-ის ფერების სიაში დაამატე "White".
+// T-Shirt-ის მესამე ფერი შეცვალე "Green"-ით.
+// Jeans-ის ფერების სიიდან წაშალე "Black"
+// Nike-ის ფერების სიაში დასაწყისში დაამატე "Red"
+// Puma-ის მეორე ფერი შეცვალე "Green"-ით.
+// "Shoes" კატეგორიის პროდუქტების სიაში დაამატე ახალი პროდუქტი:
+// ["New Balance", 450, ["Gray", "Black"]]
+// "Clothes" კატეგორიიდან წაშალე "Jacket"
+// slice()-ის გამოყენებით შექმენი ახალი სია, რომელიც შეიცავს მხოლოდ "Electronics" კატეგორიის პროდუქტებს.
+// concat()-ის გამოყენებით "Shoes" კატეგორიის პროდუქტებს დაუმატე ახალი სია:
+// [
+//     ["Reebok", 280, ["Black", "White"]]
+// ]
+
+
+// let store = [
+//     [
+//         "Electronics",
+//         [
+//             ["Laptop", 2500, ["Black", "Silver"]],
+//             ["Phone", 1500, ["Black", "White"]],
+//             ["Tablet", 900, ["Gray", "Blue"]]
+//         ]
+//     ],
+//     [
+//         "Clothes",
+//         [
+//             ["T-Shirt", 80, ["Red", "Black", "White"]],
+//             ["Jeans", 150, ["Blue", "Black"]],
+//             ["Jacket", 300, ["Black", "Brown"]]
+//         ]
+//     ],
+//     [
+//         "Shoes",
+//         [
+//             ["Nike", 400, ["Black", "White"]],
+//             ["Adidas", 350, ["White", "Blue"]],
+//             ["Puma", 250, ["Black", "Red"]]
+//         ]
+//     ]
+// ];
+
+
+// function manageStore(store){
+//     console.log(store[0][1][1][0])
+//     console.log(store[0][1][1][1])
+//     console.log(store[0][1][1][2][1])
+//     store[0][1][2][1] = 1000
+//     store[0][1][0][2].push('White')
+//     store[1][1][0][2][2] = 'Green'
+//     store[1][1][1][2].pop()
+//     store[2][1][0][2].unshift('Red')
+//     store[2][1][2][2][1] = 'Green'
+//     store[2][1].push(["New Balance", 450, ["Gray", "Black"]])
+//     store[1][1].pop()
+//     let dd = store.slice(0,1)
+//     console.log(dd);
+//     store[2][1] = store[2][1].concat(["Reebok", 280, ["Black", "White"]])
+    
+//     console.log(store);
+    
+    
+    
+// }
+
+
+// manageStore(store)
+
+// finish ------26:28:21
