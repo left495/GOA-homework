@@ -213,7 +213,7 @@
 
 // function updateProducts(products){
 //     products[0][1] = 2300
-//     products[2][1]+=100
+//     products[2][1] =100
 //     products.splice(2,0,["Tablet", 900])
 //     products.pop()
 //     console.log(products);
