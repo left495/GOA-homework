@@ -213,6 +213,24 @@
 // დათვალე, რამდენი გამეორება დასჭირდა რიცხვის პოვნას.
 // დააბრუნე გამეორებების რაოდენობა.
 
+// function numberGames(num){
+//     let guess = 1
+//     while(true){
+//         if(guess<num){
+//             guess++
+//         }else if(guess===num){
+//             console.log("You found it!");
+//             break    
+//         }  
+//     }
+//     console.log('რიცხვი:');
+//     console.log(guess);
+//     console.log('დაჭირდა');
+//     console.log(guess-1);
+    
+// }
+// numberGames(13)
+
 
 // 13)შექმენი პროგრამა, რომელიც 1-დან 500-მდე ყველა რიცხვს გადაუვლის.
 // იპოვე:
@@ -221,6 +239,35 @@
 // რამდენი რიცხვია ერთდროულად 3-ის და 5-ის ჯერადი;
 // ყველა იმ რიცხვის ჯამი, რომელიც არც 3-ის და არც 5-ის ჯერადი არ არის;
 // ყველაზე დიდი რიცხვი, რომელიც 7-ზე იყოფა.
+// let dd3 = 0
+// let dd5 = 0
+// let dd35 = 0
+// let sumDD = 0
+// let biggest7 = 0
+// let i = 1
+// while(i<500){
+//     if(i%3==0){
+//         dd3++
+//     }else if(i%5==0){
+//         dd5++
+//     }else{
+//         sumDD+=i
+//     }
+
+//     if(i%3==0 && i%5==0){
+//         dd35++
+//     }else if(i%7==0){
+//         biggest7 = i
+//     }
+//     i++
+// }
+
+// console.log(dd3);
+// console.log(dd5);
+// console.log(dd35);
+// console.log(sumDD);
+// console.log(biggest7);
+
 
 // 14)let number = 58374629;
 // Loop-ის გამოყენებით გაარკვიე:
@@ -233,6 +280,42 @@
 // რამდენი ციფრია 5-ზე მეტი.
 
 
+// let number = '58374629';
+// let i = 0
+// let even = 0
+// let odd = 0
+// let moreThan5 = 0
+// let small = Number(number[0])
+// let big = Number(number[0])
+// let sum = 0
+// while(i<number.length){
+//     if('13579'.includes(number[i])){
+//         odd++
+//     }else if('24680'.includes(number[i])){
+//         even++
+//     }
+
+//     if(Number(number[i])>5){
+//         moreThan5++
+//     }
+//     if(Number(number[i])<small){
+//         small=Number(number[i])
+//     }else if(Number(number[i])>big){
+//         big=Number(number[i])
+//     }
+//     sum+=Number(number[i])
+//     i++
+// }
+
+// console.log(number.length);
+// console.log(even);
+// console.log(odd);
+// console.log(sum);
+// console.log(big);
+// console.log(small);
+// console.log(moreThan5);
+
+
 // 15)let numbers = [15, 8, 23, 42, 11, 67, 30, 19, 54, 72, 5];
 // გაიარე მასივი loop-ით.
 // თუ რიცხვი კენტია → გამოტოვე continue-ით.
@@ -240,7 +323,17 @@
 // დანარჩენი ლუწი რიცხვები გამოიტანე.
 // ბოლოს გამოიტანე მათი ჯამი.
 
-
+// let numbers = [15, 8, 23, 42, 11, 67, 30, 19, 54, 72, 5];
+// let sum = 0
+// for(let i=0;i<numbers.length;i++){
+//     if(numbers[i]>50){
+//         break
+//     }
+//     if(numbers[i]%2==0){
+//         console.log(numbers[i]); 
+//         sum+=numbers[i]
+//     }
+// }
 
 // 16)let balance = 1200;
 // let operations = [200, -150, -500, 300, -200, -1000, 400];
@@ -253,6 +346,33 @@
 // დაითვალე რამდენი გატანა შესრულდა;
 // დაითვალე რამდენი ოპერაცია ვერ შესრულდა;
 // ბოლოს გამოიტანე საბოლოო ბალანსი.
+
+// let balance = 1200;
+// let operations = [200, -150, -500, 300, -200, -1000, 400];
+
+// let she = 0
+// let gat = 0
+// let uary = 0
+// for(let i = 0;i<operations.length;i++){
+//     if(operations[i]>0){
+//         balance+=operations[i]
+//         she++
+//     }else{
+//         if(balance+operations[i]>0){
+//             balance+=operations[i]
+//             gat++
+//         }else{
+//             uary++
+//         }
+//     }
+// }
+
+// console.log(she);
+// console.log(gat);
+// console.log(uary);
+// console.log(balance);
+
+
 
 // 17)მოცემულია:
 // let numbers = [34, 12, 89, 45, 67, 23, 90, 11, 56, 78, 43, 29];
@@ -270,6 +390,64 @@
 // ყველაზე პატარა ლუწი;
 // ყველაზე პატარა კენტი.
 
+// let numbers = [34, 12, 89, 45, 67, 23, 90, 11, 56, 78, 43, 29];
+// let max = numbers[0]
+// let min = numbers[0]
+// let sum = 0
+// let mid = 0
+// let even = 0
+// let odd = 0
+// let more50 = 0
+// let less50 = 0
+// let maxeven = 0
+// let maxodd = 1
+// let mineven = 1000
+// let minodd = 999
+// for(let i = 0;i<numbers.length;i++){
+//     sum+=numbers[i]
+    
+//     if(max<numbers[i]){
+//         max = numbers[i]
+//     }else if(min>numbers[i]){
+//         min = numbers[i]
+//     }
+//     if(numbers[i]>50){
+//         more50++
+//     }else{
+//         less50++
+//     }
+//     if(numbers[i]%2==0){
+//         even++
+//     }else{
+//         odd++
+//     }
+//     if(maxeven<numbers[i] && numbers[i]%2==0){
+//         maxeven = numbers[i]
+//     }else if(maxodd<numbers[i] && numbers[i]%2!=0){
+//         maxodd = numbers[i]
+//     }else if(mineven>numbers[i] && numbers[i]%2==0){
+//         mineven = numbers[i]
+//     }else if(minodd>numbers[i] && numbers[i]%2!=0){
+//         minodd = numbers[i]
+//     }
+// }
+// mid = sum/numbers.length
+
+// console.log(max);
+// console.log(min);
+// console.log(sum);
+// console.log(mid);
+// console.log(even);
+// console.log(odd);
+// console.log(more50);
+// console.log(less50);
+// console.log(maxeven);
+// console.log(maxodd);
+// console.log(mineven);
+// console.log(minodd);
+
+
+
 // 18)let correctPin = 4821;
 // let attempts = [1234, 1111, 4821, 5555];
 // გადაამოწმე მცდელობები თანმიმდევრობით.
@@ -277,3 +455,22 @@
 // არასწორი PIN-ის შემთხვევაში დაითვალე მცდელობა.
 // თუ 3 არასწორი მცდელობა დაგროვდა → "Card blocked" და break.
 // თუ სწორი PIN საერთოდ ვერ მოიძებნა → "Access denied".
+
+// let correctPin = 4821;
+// let attempts = [1234, 1111, 4821, 5555];
+// let sum = 0
+// for(let i = 0;i<attempts.length;i++){
+//     if(sum===3){
+//         console.log("Card blocked");
+//         break 
+//     }
+//     if(correctPin===attempts[i]){
+//         console.log("Access granted");
+//         break
+//     }else{
+//         sum++
+//     }
+
+
+
+// }
