@@ -33,3 +33,28 @@
 //   }
 //   return res
 // }
+
+// 4)
+
+// function largest(n, array) {
+//   let res = []
+//   for(let i = 0;res.length<n;i++){
+//     let dd = Math.max(...array)
+//     let index = array.indexOf(dd)
+//     array.splice(index,1)
+//     res.unshift(dd)
+//   }
+//   return res
+// }
+
+
+// 5)
+
+// function smallEnough(a, limit){
+//   for(let i = 0;i<a.length;i++){
+//     if(a[i]>limit){
+//       return false
+//     }
+//   }
+//   return true
+// }
