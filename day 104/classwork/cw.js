@@ -40,8 +40,8 @@
 
 
 
-let player1 = Math.floor((Math.random()*30)+10)
-let player2 = Math.floor((Math.random()*30)+10)
+let player1 = Math.floor((Math.random()*21)+10)
+let player2 = Math.floor((Math.random()*21)+10)
 
 console.log('Player1 power :' ,player1);
 console.log('Player2 power :' ,player2);
