@@ -305,3 +305,48 @@
 // 11. every() — შეამოწმე, არის თუ არა საბოლოო მასივის ყველა ელემენტი 100-ზე მეტი და ლუწი.
 // 12. forEach() — დაბეჭდე საბოლოო მასივის ყველა ელემენტი, ინდექსი და ის, არის თუ არა რიცხვი 200-ზე მეტი.
 // 13. საბოლოოდ დაბეჭდე საწყისი მასივის ელემენტების რაოდენობა, საბოლოო მასივის ელემენტების რაოდენობა, მათი ჯამი და საშუალო არითმეტიკული.
+
+
+// const numbers = [
+//   18, 45, 72, 91, 34, 120, 57, 86,
+//   103, 64, 39, 150, 77, 98, 25, 132
+// ];
+
+// let fil = numbers.filter(x=>x>30)
+// console.log(fil);
+
+// let map = fil.map((x,ind)=>x+ind)
+// console.log(map);
+
+// let fil2 = map.filter(x=>x%2==0)
+// console.log(fil2);
+
+// let map2 = map.map(x=>x%2==0?x+20:x-10)
+// console.log(map2);
+
+// let fil3 = map2.filter(x=>x>100)
+// console.log(fil3);
+
+
+// let red = fil3.reduce((a,x)=>a+x)
+// console.log(red);
+
+// console.log(red/fil3.length);
+
+// let red2 = fil3.reduce((a,x)=>a>x?a:x)
+// console.log(red2);
+
+// let find = fil3.findIndex(x=>x%2==0 && x<100)
+// console.log(find);
+
+// let some = numbers.some(x=>x>140)
+// console.log(some);
+
+// let every = fil3.every(x=>x%2==0 && x>100)
+// console.log(every);
+
+// fil3.forEach(x=>console.log(x))
+
+// console.log(numbers.length);
+// console.log(fil3.length);
+
