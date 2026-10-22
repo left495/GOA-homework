@@ -61,4 +61,10 @@
 
 // console.log(findindex);
 
+
+// let red = filter.reduce((acc,curr)=>acc+curr,0)
+
+// console.log(red);
+
+
 // filter.forEach(x=>x)
