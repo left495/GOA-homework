@@ -443,3 +443,34 @@ console.log(student.getHighestScore());
 // პირობა: ჯანმრთელობა ნულზე ნაკლები არ უნდა გახდეს.
 
 // მაგალითი:
+
+
+let player = {
+    name: "Shadow",
+    health: 100,
+    attack: 25,
+    showInfo(){
+        console.log(this);
+    },
+    attackEnemy(enemy){
+        if (enemy.health<0){
+            enemy.health - this.attack
+        }
+    }
+};
+
+let enemy = {
+    name: "Dragon",
+    health: 150,
+    attack: 20,
+    showInfo(){
+        this
+    },
+    attackPlayer(player){
+        if (player.health<0){
+            player.health - this.attack
+        }
+        
+    }
+};
+
