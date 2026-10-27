@@ -218,6 +218,33 @@ delete company.projects.project2.team.technology.backend
 // player.levelUp();
 // player.showInfo();
 
+// let player = {
+//     name: "Shadow",
+//     health: 100,
+//     energy: 80,
+//     level: 1,
+//     showInfo(){
+//         return this.name+' '+this.health+' '+this.energy+' '+this.level
+//     },
+//     takeDamage(amount){
+//         return this.health - amount
+//     },
+//     heal(amount){
+//         this.health + amount
+//     },
+//     levelUp(){
+//         this.level++
+//     },
+//     useEnergy(amount){
+//         this.energy - amount
+//     }
+// };
+// player.takeDamage(20);
+// player.heal(10);
+// player.levelUp();
+// console.log(player.showInfo())
+
+
 // 2)შექმენი ობიექტი bankAccount:
 // let bankAccount = {
 //     owner: "Goga",
@@ -231,6 +258,34 @@ delete company.projects.project2.team.technology.backend
 // 3. withdraw(amount) — ანგარიშიდან გამოიტანს მითითებულ თანხას, თუ საკმარისი თანხაა.
 // 4. showInfo() — გამოიტანს ანგარიშის ყველა თვისებას.
 // პირობა: თუ ანგარიშზე საკმარისი თანხა არ არის, გამოიტანე შეტყობინება "Not enough money!".
+
+// let bankAccount = {
+//     owner: "Goga",
+//     balance: 1500,
+//     currency: "GEL",
+//     showBalance(){
+//         return this.owner+' '+this.balance
+//     },
+//     deposit(amount){
+//         this.balance + amount
+//     },
+//     withdraw(amount){
+//         if (this.balance < amount){
+//             return  "Not enough money!"
+//         }else{
+//             this.balance - amount
+//         }
+        
+//     },
+//     showInfo(){
+//         console.log(this.owner)
+//         console.log(this.balance)
+//         console.log(this.currency)
+//     }
+// };
+
+
+
 // 3)შექმენი ობიექტი product:
 // let product = {
 //     name: "Laptop",
@@ -246,6 +301,38 @@ delete company.projects.project2.team.technology.backend
 // 5. changePrice(newPrice) — შეცვლის პროდუქტის ფასს.
 // პირობა: sell()-ის გამოყენებისას პროდუქტის რაოდენობა არ უნდა გახდეს ნულზე ნაკლები.
 
+
+// let product = {
+//     name: "Laptop",
+//     price: 2500,
+//     quantity: 10,
+//     showInfo(){
+//         console.log(this.name);
+//         console.log(this.price);
+//         console.log(this.quantity);
+//     },
+//     calculateTotal(){
+//         console.log(this.quantity*this.price)
+//     },
+//     sell(amount){
+//         if(this.quantity - amount < 0){
+//             console.log('cant do that')
+//         }else{
+//             this.quantity - amount
+//         }
+//     },
+//     restock(amount){
+//         this.quantity + amount
+//     },
+//     changePrice(newPrice){
+//         this.price = newPrice
+//     }
+// };
+
+
+
+
+
 // 4)შექმენი ობიექტი car:
 // let car = {
 //     brand: "BMW",
@@ -260,8 +347,35 @@ delete company.projects.project2.team.technology.backend
 // 3. brake(amount) — შეამცირებს სიჩქარეს, მაგრამ ნულზე ნაკლები არ უნდა გახდეს.
 // 4. drive(distance) — შეამცირებს საწვავს გავლილი მანძილის მიხედვით.
 // პირობა: ყოველ გავლილ 10 კილომეტრზე საწვავი შემცირდეს 1 ერთეულით.
-
 // თუ საწვავი არ არის საკმარისი, გამოიტანე შესაბამისი შეტყობინება.
+
+// let car = {
+//     brand: "BMW",
+//     model: "M5",
+//     speed: 0,
+//     fuel: 60,
+//     showInfo(){
+//         console.log(this.brand);
+//         console.log(this.model);
+//         console.log(this.speed);
+//         console.log(this.fuel);
+//     },
+//     accelerate(amount){
+//         this.speed + amount
+//     },
+//     brake(amount){
+//         if(this.speed - amount > 0){
+//             this.speed - amount
+//         }
+//     },
+//     drive(distance){
+//         if (this.fuel - distance/10 > 0){
+//             this.fuel - distance/10
+//         }
+//     }
+// };
+
+
 
 // 5)let student = {
 //     name: "Nika",
@@ -274,6 +388,36 @@ delete company.projects.project2.team.technology.backend
 // 3. calculateAverage() — გამოთვლის ქულების საშუალო არითმეტიკულს და დააბრუნებს შედეგს.
 // 4. getHighestScore() — დააბრუნებს ყველაზე მაღალ ქულას.
 // 5. getLowestScore() — დააბრუნებს ყველაზე დაბალ ქულას.
+
+
+let student = {
+    name: "Nika",
+    scores: [85, 90, 70, 100],
+    showScores(){
+        console.log(this.scores);
+    },
+    addScore(score){
+        this.scores.push(score)
+    },
+    calculateAvarage(){
+        let sum = 0
+        for(let i = 0;i<this.scores.length;i++){
+            sum+=this.scores[i]
+        }
+
+        console.log(sum/this.scores.length);
+    },
+    getHighestScore(){
+        return Math.max(...this.scores)
+    },
+    getLowestScore(){
+        return Math.min(...this.scores)
+    }
+
+};
+
+
+
 
 // 6)შექმენი ორი ობიექტი:
 // let player = {
