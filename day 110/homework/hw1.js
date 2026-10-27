@@ -1,79 +1,79 @@
-let company = {
-    name: "TechVision",
-    founded: 2010,
+// let company = {
+//     name: "TechVision",
+//     founded: 2010,
 
-    headquarters: {
-        country: "Georgia",
-        city: "Tbilisi",
+//     headquarters: {
+//         country: "Georgia",
+//         city: "Tbilisi",
 
-        address: {
-            street: "Chavchavadze",
-            building: {
-                number: 25,
-                floors: 8,
+//         address: {
+//             street: "Chavchavadze",
+//             building: {
+//                 number: 25,
+//                 floors: 8,
 
-                departments: {
-                    firstFloor: {
-                        name: "Reception",
-                        employees: 4
-                    },
+//                 departments: {
+//                     firstFloor: {
+//                         name: "Reception",
+//                         employees: 4
+//                     },
 
-                    fifthFloor: {
-                        name: "Development",
-                        employees: 35,
+//                     fifthFloor: {
+//                         name: "Development",
+//                         employees: 35,
 
-                        manager: {
-                            name: "Giorgi",
-                            age: 32,
+//                         manager: {
+//                             name: "Giorgi",
+//                             age: 32,
 
-                            contact: {
-                                email: "giorgi@techvision.com",
-                                phone: "555123456"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    },
+//                             contact: {
+//                                 email: "giorgi@techvision.com",
+//                                 phone: "555123456"
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     },
 
-    projects: {
-        project1: {
-            name: "Website",
-            budget: 15000,
+//     projects: {
+//         project1: {
+//             name: "Website",
+//             budget: 15000,
 
-            team: {
-                leader: "Nika",
-                members: 8,
+//             team: {
+//                 leader: "Nika",
+//                 members: 8,
 
-                technology: {
-                    frontend: "React",
-                    backend: "Node.js",
-                    database: "MongoDB"
-                }
-            }
-        },
+//                 technology: {
+//                     frontend: "React",
+//                     backend: "Node.js",
+//                     database: "MongoDB"
+//                 }
+//             }
+//         },
 
-        project2: {
-            name: "Mobile App",
-            budget: 25000,
+//         project2: {
+//             name: "Mobile App",
+//             budget: 25000,
 
-            team: {
-                leader: "Ana",
-                members: 12,
+//             team: {
+//                 leader: "Ana",
+//                 members: 12,
 
-                technology: {
-                    frontend: "React Native",
-                    backend: "Python",
-                    database: "PostgreSQL"
-                }
-            }
-        }
-    }
-};
+//                 technology: {
+//                     frontend: "React Native",
+//                     backend: "Python",
+//                     database: "PostgreSQL"
+//                 }
+//             }
+//         }
+//     }
+// };
 
-// console.log(company.name)
-// console.log(company.founded)
+// // console.log(company.name)
+// // console.log(company.founded)
 
 // console.log(company.headquarters.country)
 // console.log(company.headquarters.city)
@@ -118,19 +118,19 @@ let company = {
 
 
 
-company.name = "TechWorld"
-company.headquarters.city = 'Batumi'
-company.headquarters.address.building.number = 40
-company.headquarters.address.building.floors = 10
-company.headquarters.address.building.departments.firstFloor.employees = 7
-company.headquarters.address.building.departments.fifthFloor.name = "Software Development"
-company.headquarters.address.building.departments.fifthFloor.manager.age = 35
-company.headquarters.address.building.departments.fifthFloor.manager.contact.phone = "599123456"
-company.projects.project1.budget = 20000
-company.projects.project2.team.leader = 'Giorgi'
-company.projects.project2.team.members = 15
-company.projects.project1.team.technology.frontend = 'Vue.js'
-company.projects.project1.team.technology.database = 'MySQL'
+// company.name = "TechWorld"
+// company.headquarters.city = 'Batumi'
+// company.headquarters.address.building.number = 40
+// company.headquarters.address.building.floors = 10
+// company.headquarters.address.building.departments.firstFloor.employees = 7
+// company.headquarters.address.building.departments.fifthFloor.name = "Software Development"
+// company.headquarters.address.building.departments.fifthFloor.manager.age = 35
+// company.headquarters.address.building.departments.fifthFloor.manager.contact.phone = "599123456"
+// company.projects.project1.budget = 20000
+// company.projects.project2.team.leader = 'Giorgi'
+// company.projects.project2.team.members = 15
+// company.projects.project1.team.technology.frontend = 'Vue.js'
+// company.projects.project1.team.technology.database = 'MySQL'
 
 // -----შეცვლა---------
 // 11. კომპანიის სახელი შეცვალე "TechWorld"-ით.
@@ -145,16 +145,17 @@ company.projects.project1.team.technology.database = 'MySQL'
 // 20. პირველი პროექტის frontend შეცვალე "Vue.js"-ით, ხოლო database — "MySQL"-ით.
 
 
-company.employees = 150
-company.headquarters.postalCode = '0108'
-company.headquarters.building.hasElevator = true
-company.headquarters.building.departments.firstFloor.phone = "0322000000"
-company.headquarters.building.departments.fifthFloor.budget = 50000
-company.headquarters.address.departments.fifthFloor.manager.salary = 6000
-company.headquarters.address.departments.fifthFloor.manager.contact.linkedIn = "giorgi-techvision"
-company.projects.project1.team.designer = "Mariam"
-company.projects.project2.team.technology.testing = 'Jest'
-company.projects.project2.status = "In Progress"
+// company.employees = 150
+// company.headquarters.postalCode = '0108'
+// company.headquarters.building.hasElevator = true
+// company.headquarters.building.departments.firstFloor.phone = "0322000000"
+// company.headquarters.building.departments.fifthFloor.budget = 50000
+// company.headquarters.address.departments.fifthFloor.manager.salary = 6000
+// company.headquarters.address.departments.fifthFloor.manager.contact.linkedIn = "giorgi-techvision"
+// company.projects.project1.team.designer = "Mariam"
+// company.projects.project2.team.technology.testing = 'Jest'
+// company.projects.project2.status = "In Progress"
+
 // ------დამატება-----
 // 21. კომპანიის მთავარ ობიექტს დაამატე თვისება employees, რომლის მნიშვნელობა იქნება 150.
 // 22. შტაბ-ბინის ობიექტს დაამატე თვისება postalCode, რომლის მნიშვნელობა იქნება "0108".
@@ -168,16 +169,16 @@ company.projects.project2.status = "In Progress"
 // 30. მეორე პროექტის ობიექტს დაამატე ახალი თვისება status, რომლის მნიშვნელობა იქნება "In Progress".
 
 
-delete company.founded
-delete company.headquarters.country
-delete company.headquarters.address.building.floors
-delete company.headquarters.address.building.departments.firstFloor.employees
-delete company.headquarters.address.building.departments.fifthFloor.manager.age
-delete company.headquarters.address.building.departments.fifthFloor.manager.contact.phone
-delete company.projects.project1.team.technology.database
-delete company.projects.project2.team.members
-delete company.projects.project1.budget
-delete company.projects.project2.team.technology.backend
+// delete company.founded
+// delete company.headquarters.country
+// delete company.headquarters.address.building.floors
+// delete company.headquarters.address.building.departments.firstFloor.employees
+// delete company.headquarters.address.building.departments.fifthFloor.manager.age
+// delete company.headquarters.address.building.departments.fifthFloor.manager.contact.phone
+// delete company.projects.project1.team.technology.database
+// delete company.projects.project2.team.members
+// delete company.projects.project1.budget
+// delete company.projects.project2.team.technology.backend
 
 
 // ----წაშლა----
@@ -390,34 +391,34 @@ delete company.projects.project2.team.technology.backend
 // 5. getLowestScore() — დააბრუნებს ყველაზე დაბალ ქულას.
 
 
-let student = {
-    name: "Nika",
-    scores: [85, 90, 70, 100],
-    showScores(){
-        console.log(this.scores);
-    },
-    addScore(score){
-        this.scores.push(score)
-    },
-    calculateAvarage(){
-        let sum = 0
-        for(let i = 0;i<this.scores.length;i++){
-            sum+=this.scores[i]
-        }
+// let student = {
+//     name: "Nika",
+//     scores: [85, 90, 70, 100],
+//     showScores(){
+//         console.log(this.scores);
+//     },
+//     addScore(score){
+//         this.scores.push(score)
+//     },
+//     calculateAvarage(){
+//         let sum = 0
+//         for(let i = 0;i<this.scores.length;i++){
+//             sum+=this.scores[i]
+//         }
 
-        console.log(sum/this.scores.length);
-    },
-    getHighestScore(){
-        return Math.max(...this.scores)
-    },
-    getLowestScore(){
-        return Math.min(...this.scores)
-    }
+//         console.log(sum/this.scores.length);
+//     },
+//     getHighestScore(){
+//         return Math.max(...this.scores)
+//     },
+//     getLowestScore(){
+//         return Math.min(...this.scores)
+//     }
 
-};
+// };
 
-console.log(student.getLowestScore());
-console.log(student.getHighestScore());
+// console.log(student.getLowestScore());
+// console.log(student.getHighestScore());
 
 
 
@@ -450,7 +451,7 @@ let player = {
     health: 100,
     attack: 25,
     showInfo(){
-        console.log(this);
+        return this
     },
     attackEnemy(enemy){
         if (enemy.health<0){
@@ -474,3 +475,5 @@ let enemy = {
     }
 };
 
+
+console.log(player.showInfo());
