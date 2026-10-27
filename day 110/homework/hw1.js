@@ -72,33 +72,33 @@ let company = {
     }
 };
 
-console.log(company.name)
-console.log(company.founded)
+// console.log(company.name)
+// console.log(company.founded)
 
-console.log(company.headquarters.country)
-console.log(company.headquarters.city)
+// console.log(company.headquarters.country)
+// console.log(company.headquarters.city)
 
-console.log(company.headquarters.address.building.number)
-console.log(company.headquarters.address.building.floors)
+// console.log(company.headquarters.address.building.number)
+// console.log(company.headquarters.address.building.floors)
 
-console.log(company.headquarters.address.building.departments.firstFloor.name)
-console.log(company.headquarters.address.building.departments.firstFloor.employees)
+// console.log(company.headquarters.address.building.departments.firstFloor.name)
+// console.log(company.headquarters.address.building.departments.firstFloor.employees)
 
-console.log(company.headquarters.address.building.departments.fifthFloor.name)
-console.log(company.headquarters.address.building.departments.fifthFloor.employees)
+// console.log(company.headquarters.address.building.departments.fifthFloor.name)
+// console.log(company.headquarters.address.building.departments.fifthFloor.employees)
 
-console.log(company.headquarters.address.building.departments.fifthFloor.manager.name)
-console.log(company.headquarters.address.building.departments.fifthFloor.manager.age)
+// console.log(company.headquarters.address.building.departments.fifthFloor.manager.name)
+// console.log(company.headquarters.address.building.departments.fifthFloor.manager.age)
 
-console.log(company.headquarters.address.building.departments.fifthFloor.manager.contact.email)
-console.log(company.headquarters.address.building.departments.fifthFloor.manager.contact.phone)
+// console.log(company.headquarters.address.building.departments.fifthFloor.manager.contact.email)
+// console.log(company.headquarters.address.building.departments.fifthFloor.manager.contact.phone)
 
-console.log(company.projects.project2.team.members);
-console.log(company.projects.project2.team.technology);
+// console.log(company.projects.project2.team.members);
+// console.log(company.projects.project2.team.technology);
 
-console.log(company.projects.project2.team.technology.frontend);
-console.log(company.projects.project2.team.technology.backend);
-console.log(company.projects.project2.team.technology.database);
+// console.log(company.projects.project2.team.technology.frontend);
+// console.log(company.projects.project2.team.technology.backend);
+// console.log(company.projects.project2.team.technology.database);
 
 
 
