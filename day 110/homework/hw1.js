@@ -416,6 +416,8 @@ let student = {
 
 };
 
+console.log(student.getLowestScore());
+console.log(student.getHighestScore());
 
 
 
