@@ -84,7 +84,7 @@
 
 // let values = Object.values(products)
 
-// let moreThan50 = 0
+// let moreThan5 = 0
 // let sum = 0
 // let max = Math.max(...values)
 
@@ -94,7 +94,7 @@
 // for(let i in products){
 //     console.log(i+' : '+products[i]);
 //     if(products[i]>500){
-//         moreThan50++
+//         moreThan5++
 //         expensiveProducts[i] = products[i]
 //     }
 //     sum+=products[i]
