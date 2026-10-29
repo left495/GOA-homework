@@ -200,7 +200,7 @@
 
 // for(let i in exam){
 //     console.log(i+' : '+exam[i]);
-//     if(exam[i]>70){
+//     if(exam[i]>=70){
 //         console.log('ჩააბარა');
 //         passed++
 //     }else{
