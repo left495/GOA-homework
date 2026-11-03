@@ -492,8 +492,8 @@
 // fil.forEach(x=>{
 //     console.log(x.name,x.age,x.medals,x.score);
 
-//     x.score>=90?console.log("Excellent"):x.score>=80?console.log('Good'):console.log("Needs improvement")
-
+//     console.log(x.score>=90?"Excellent":x.score>=80?'Good':"Needs improvement");
+    
 //     if(x.medals>=5){
 //         console.log('player has 5+ medals')
 //     }
