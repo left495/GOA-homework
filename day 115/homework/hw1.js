@@ -310,59 +310,63 @@
 // 8. getInfo() — დააბრუნოს თანამშრომლის სრული ინფორმაცია.
 // შექმენი მინიმუმ 3 თანამშრომელი განსხვავებული გამოცდილებით და შეამოწმე მათი მეთოდები.
 
-// function createEmployee(name,position,salary,experiance){
-//     return {
-//         name:name,
-//         position:position,
-//         salary:salary,
-//         experiance:experiance,
-//         increaseSalary(amount){
-//             if(this.experiance>5){
-//                 this.salary+=amount
-//             }else{
-//                 return "Not enough experience!"
-//             }
-//         },
-//         changePosition(newPosition){
-//             if(this.experiance>=2){
-//                 this.position = newPosition
-//             }
-//         },
-//         getBonus(){
-//             if(this.experiance>=10){
-//                 this.salary+=2000
-//             }else if(this.experiance>=5){
-//                 this.salary+=1000
-//             }else{
-//                 this.salary+=500
-//             }
-//         },
-//         getInfo(){
-//             return this
-//         }
-//     }
-// }
+function createEmployee(name,position,salary,experiance){
+    return {
+        name:name,
+        position:position,
+        salary:salary,
+        experiance:experiance,
+        increaseSalary(amount){
+            if(this.experiance>5){
+                this.salary+=amount
+                return this.salary
+            }else{
+                return "Not enough experience!"
+            }
+        },
+        changePosition(newPosition){
+            if(this.experiance>=2){
+                this.position = newPosition
+                return 'New position : '+this.position
+            }else{
+                return 'Not enough experiance'
+            }
+        },
+        getBonus(){
+            if(this.experiance>=10){
+                this.salary+=2000
+            }else if(this.experiance>=5){
+                this.salary+=1000
+            }else{
+                this.salary+=500
+            }
+        },
+        getInfo(){
+            return this
+        }
+    }
+}
 
-// let employee1 = createEmployee('tsotne','Junior',2000,1)
+let employee1 = createEmployee('tsotne','Junior',2000,1)
 
-// console.log(employee1.increaseSalary(500));
+console.log(employee1.increaseSalary(500));
 
-// console.log(employee1.changePosition('Senior'));
+console.log(employee1.changePosition('Senior'));
 
-// employee1.getBonus()
+employee1.getBonus()
 
-// console.log(employee1.getInfo());
+console.log(employee1.getInfo());
 
 
 
-// let employee2 = createEmployee('goga','Junior',2500,6)
+let employee2 = createEmployee('goga','Junior',2500,6)
 
-// console.log(employee2.increaseSalary(500));
+console.log(employee2.increaseSalary(500));
 
-// console.log(employee2.changePosition('Senior'));
+console.log(employee2.changePosition('Senior'));
 
-// employee2.getBonus()
+employee2.getBonus()
 
-// console.log(employee2.getInfo());
+console.log(employee2.getInfo());
 
 
