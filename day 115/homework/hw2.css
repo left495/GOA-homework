@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+
+}
+
+body{
+    margin:30px 140px;
+}
+
+.burgermenu{
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.but{
+    background-color: rgb(255, 206, 49);
+    border-radius: 50px;
+    border: none;
+    height: 60px;
+    width: 180px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+.firdivh1{
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.firdivp{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.sec1{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 708px;
+}
+
+
+.imgDiv{
+    background-image:url(./img/mobile.svg) ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 613px;
+    width: 815px;
+}
+
+.butdiv{
+    display: flex;
+    gap: 20px;
+}
+
+#text{
+    color: gray;
+    opacity: 0.5;
+    height: 72px;
+    width: 400px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    padding-left: 30px;
+}
+
+
+@media (max-width:1550px){
+
+    .imgDiv{
+        height: 413px;
+        width: 435px;
+    }
+
+    .firdivh1{
+        font-size: 70px;
+    }
+}
+
+@media (max-width:1400px){
+    .firdiv{
+        width: 100%;
+    }
+}
+
+@media (max-width:1200px){
+    .sec1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firdivh1{
+        text-align: center;
+    }
+
+    .firdivp{
+        text-align: center;
+    }
+}
+
+
+@media (max-width:1000px){
+    body{
+        margin: 30px 50px;
+    }
+}
+
+
+@media (max-width:800px){
+    .burgermenu{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+
+    .but{
+        display: none;
+    }
+
+}
+
+
+@media (max-width:500px){
+    .firdivh1{
+        font-size: 50px;
+        min-width: 0;
+        width: 100%;
+    }
+    .firdivp{
+        font-size: 16px;
+        min-width: 0;
+        width: 100%;
+    }
+    .imgDiv{
+        min-width: 0;
+        width: 100%;
+    }
+    #text{
+        min-width: 0;
+        width: 100%;
+    }
+    .phoneimg{
+        width: 100%;
+    }
+}
+

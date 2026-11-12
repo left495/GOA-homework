@@ -207,9 +207,162 @@
 //     return {
 //         items:[],
 //         addProduct(name,price,quantity){
-//             if(!name in this.items){
-//                 this.items.push(name)
+//             if(!this.items.some(x=>x.name == name)){
+//                 this.items.push({
+//                     name:name,
+//                     price:price,
+//                     quantity:quantity
+//                 })
+//             }else{
+//                 for(let i of this.items){
+//                     if(i.name == name){
+//                         i.quantity+=quantity
+//                     }
+//                 }
 //             }
+//         },
+//         removeProduct(name){
+//             for(let i of this.items){
+//                 if(name == i.name){
+//                     let index = this.items.findIndex(x=>x.name == name)
+//                     this.items.splice(index,1)
+//                 }
+//             }
+//         },
+//         increaseQuantity(name, amount){
+//             for(let i of this.items){
+//                 if(i.name == name){
+//                     i.quantity+=amount
+//                 }
+//             }
+//         },
+//         getTotal(){
+//             let sum = 0
+//             for(let i of this.items){
+//                 let price = i.price*i.quantity
+//                 sum+=price
+//             }
+//             return sum
+//         },
+//         getCartInfo(){
+//             return this
 //         }
 //     }
 // }
+
+
+// let cart1 = createCart()
+
+// cart1.addProduct('mouse',100,1)
+// cart1.addProduct('mouse',100,1)
+// cart1.addProduct('laptop',120,2)
+
+
+// cart1.removeProduct('laptop')
+
+// cart1.increaseQuantity('mouse',10)
+
+// console.log(cart1.items);
+
+// console.log(cart1.getTotal());
+
+// console.log(cart1.getCartInfo());
+
+
+// let cart2 = createCart()
+
+
+// cart2.addProduct('computer',1000,1)
+// cart2.addProduct('computer',1000,1)
+// cart2.addProduct('headphones',1200,2)
+
+
+// cart2.removeProduct('computer')
+
+// cart2.increaseQuantity('headphone',10)
+
+// console.log(cart2.items);
+
+// console.log(cart2.getTotal());
+
+// console.log(cart2.getCartInfo());
+
+
+
+// 5)შექმენი Factory Function createEmployee, რომელსაც გადაეცემა:
+// - name
+// - position
+// - salary
+// - experience — სამუშაო გამოცდილება წლებში.
+// დაბრუნებულ ობიექტს უნდა ჰქონდეს:
+// 1. name
+// 2. position
+// 3. salary
+// 4. experience
+// 5. increaseSalary(amount) — ხელფასის გაზრდა.
+//    - თუ გამოცდილება 5 წელზე მეტია, ხელფასი გაიზარდოს გადაცემული თანხით.
+//    - სხვა შემთხვევაში გამოიტანოს "Not enough experience!".
+// 6. changePosition(newPosition) — შეცვალოს პოზიცია მხოლოდ იმ შემთხვევაში, თუ თანამშრომელს მინიმუმ 2 წლის გამოცდილება აქვს.
+// 7. getBonus() — დააბრუნოს ბონუსი:
+//    - 10 წელზე მეტი გამოცდილება — 2000
+//    - 5-დან 10 წლამდე — 1000
+//    - 5 წელზე ნაკლები — 500
+// 8. getInfo() — დააბრუნოს თანამშრომლის სრული ინფორმაცია.
+// შექმენი მინიმუმ 3 თანამშრომელი განსხვავებული გამოცდილებით და შეამოწმე მათი მეთოდები.
+
+// function createEmployee(name,position,salary,experiance){
+//     return {
+//         name:name,
+//         position:position,
+//         salary:salary,
+//         experiance:experiance,
+//         increaseSalary(amount){
+//             if(this.experiance>5){
+//                 this.salary+=amount
+//             }else{
+//                 return "Not enough experience!"
+//             }
+//         },
+//         changePosition(newPosition){
+//             if(this.experiance>=2){
+//                 this.position = newPosition
+//             }
+//         },
+//         getBonus(){
+//             if(this.experiance>=10){
+//                 this.salary+=2000
+//             }else if(this.experiance>=5){
+//                 this.salary+=1000
+//             }else{
+//                 this.salary+=500
+//             }
+//         },
+//         getInfo(){
+//             return this
+//         }
+//     }
+// }
+
+// let employee1 = createEmployee('tsotne','Junior',2000,1)
+
+// console.log(employee1.increaseSalary(500));
+
+// console.log(employee1.changePosition('Senior'));
+
+// employee1.getBonus()
+
+// console.log(employee1.getInfo());
+
+
+
+// let employee2 = createEmployee('goga','Junior',2500,6)
+
+// console.log(employee2.increaseSalary(500));
+
+// console.log(employee2.changePosition('Senior'));
+
+// employee2.getBonus()
+
+// console.log(employee2.getInfo());
+
+
