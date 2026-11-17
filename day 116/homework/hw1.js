@@ -259,45 +259,45 @@
 // 7. შეამოწმე, არის თუ არა მანქანა ელექტრო.
 
 
-// 10)
-let company = {
-    name: "TechVision",
-    employees: 45,
-    income: 120000,
-    expenses: 75000,
-    founded: 2018,
-    country: "Georgia",
-    isActive: true
-};
+// // 10)
+// let company = {
+//     name: "TechVision",
+//     employees: 45,
+//     income: 120000,
+//     expenses: 75000,
+//     founded: 2018,
+//     country: "Georgia",
+//     isActive: true
+// };
 
 
-let {name:companyName,employees:employeeCount,income:totalIncome,expenses:totalExpenses,founded,country,isActive} = company
+// let {name:companyName,employees:employeeCount,income:totalIncome,expenses:totalExpenses,founded,country,isActive} = company
 
-let profit = totalIncome-totalExpenses
+// let profit = totalIncome-totalExpenses
 
-console.log(profit);
+// console.log(profit);
 
-if(profit>50000){
-    console.log('profit is high');
-}else{
-    console.log('profit is low');
+// if(profit>50000){
+//     console.log('profit is high');
+// }else{
+//     console.log('profit is low');
     
-}
+// }
 
-if(founded<2020){
-    console.log('company has founded before 2020');
-}else{
-    console.log('company has founded after 2020');
-}
+// if(founded<2020){
+//     console.log('company has founded before 2020');
+// }else{
+//     console.log('company has founded after 2020');
+// }
 
-if(isActive){
-    console.log('company is active');
-}else{
-    console.log('company is not active');
+// if(isActive){
+//     console.log('company is active');
+// }else{
+//     console.log('company is not active');
     
-}
+// }
 
-console.log(`total income is :${totalIncome} total expance is :${totalExpenses}`);
+// console.log(`total income is :${totalIncome} total expance is :${totalExpenses}`);
 
 
 // Destructuring-ის გამოყენებით:
