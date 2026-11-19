@@ -54,7 +54,7 @@ li{
 }
 
 main{
-    padding: 160px  0px;
+    padding: 160px  0px 0px ;
 }
 
 
@@ -142,6 +142,7 @@ aside{
 
 .sec2div1{
     display: flex;
+    flex-direction: column;
     justify-content:space-between;
     align-items: center;
 }
@@ -240,6 +241,49 @@ aside{
 }
 
 
+.footdivh1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.footdivp{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.links{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+footer{
+    padding: 100px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footdiv{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.lastdiv{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    gap: 50px;
+}
+
+.lastdiv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media (max-width:1600px){
         
     #bigimg{
@@ -303,6 +347,9 @@ aside{
     .sec2h1{
         font-size: 50px;
     }
+    footer{
+        padding: 100px 60px;
+    }
 }
 
 
@@ -319,6 +366,29 @@ aside{
     }
     .yellowh1{
         font-size: 50px;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .lastdiv{
+        width: 300px;
+    }
+
+    .lastdiv3{
+        gap: 30px;
+    }
+
+
+    .footdivh1{
+        text-align: center;
+    }
+
+    .footdivp{
+        text-align: center;
     }
 }
 
@@ -394,10 +464,45 @@ aside{
         font-weight: 400;
     }
 
+    .links{
+        font-size:16px;
+    }
+
+    .footdiv{
+        width: auto;
+    }
+
+    .footdivp{
+        font-size:18px ;
+    }
+
 }
 
 
 @media (max-width:500px){
+    .sameimg{
+        width: 300px;
+        height: auto;
+    }
+
+    .same3divh1{
+        font-size: 50px;
+    }
+
+    .yellimg{
+        width: 200px;
+        height: auto;
+    }
+
+    .imgdiv{
+        width: 120px;
+        height: auto;
+    }
+
+    .asideimg{
+        width: 200px;
+        height: auto;
+    }
     .inpdiv{
         display: flex;
         flex-direction: column;
